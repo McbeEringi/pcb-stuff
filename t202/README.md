@@ -29,6 +29,8 @@ EDLCは挟みこむように実装(表がGND)
 LED@PB3
 SW@PB7
 
+`avrdude -p t202 -c serialupdi`
+
 ## ATTiny202がない場合は
 - sopの一部のジャンパを閉じるとPB0の位置のピンがserialupdiとして機能
 - 真ん中のジャンパを閉じると小さく書かれたピン配置にてシリアル変換として機能
