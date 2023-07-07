@@ -1,4 +1,4 @@
-# ATTiny202開発ボード
+# 8pin tinyAVR開発ボード
 ## 機能
 - serialupdi書き込み機内蔵
 - ELDC搭載で電源無しで駆動
