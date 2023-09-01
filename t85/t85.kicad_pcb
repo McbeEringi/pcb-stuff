@@ -1,7 +1,7 @@
 (kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
-    (thickness 1.6)
+    (thickness 0.8)
   )
 
   (paper "A4")
@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen") (color "Black"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "White") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 0.71) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "White") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "Black"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -792,8 +805,26 @@
     )
   )
 
-  (gr_rect (start 111.951 96.012) (end 122.237 104.012)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 1bba5b98-db79-4678-9204-145385e6847c))
+  (gr_line (start 99.9 106.2) (end 111.8 106.2)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 09249e47-3f34-4732-b848-8b90c9ee9297))
+  (gr_line (start 122.237 104.012) (end 111.951 104.012)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 23fa8cb9-086b-4c5c-b7b7-325f246d7b5e))
+  (gr_line (start 99.9 93.8) (end 111.8 93.8)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 360073b1-a1e1-447f-a2f6-180e394c79e2))
+  (gr_line (start 111.8 106.2) (end 111.8 104.14)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 3a9d731f-c4af-4bd7-a54b-b9a93a2c0368))
+  (gr_line (start 99.9 93.8) (end 99.9 106.2)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 773adbd0-6086-4924-8e74-7bbeefd6df54))
+  (gr_line (start 122.237 104.012) (end 122.237 96.012)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 91c7aa21-1a65-4af6-9629-b164b56676f9))
+  (gr_line (start 111.951 96.012) (end 122.237 96.012)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 935df8f0-787c-4c4d-8be1-39dc463c8b5f))
+  (gr_line (start 111.8 93.8) (end 111.8 95.9)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp dd8fc14d-f73e-4719-a6f9-1865e1b429a5))
+  (gr_line (start 111.951 104.012) (end 111.8 104.14)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e9654eb9-6b17-4038-aa01-404fed72a806))
+  (gr_line (start 111.8 95.9) (end 111.951 96.012)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ee2e22bc-e207-45a0-bb75-c38c47714dc7))
 
   (via (at 118.364 100.9205) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 1807563b-d49a-405c-8ffd-b7f819d3dd32))
   (via (at 117.094 98.044) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 1c49c950-6683-41b4-b1ab-b137fa042e17))
