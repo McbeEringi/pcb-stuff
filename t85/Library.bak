@@ -50,7 +50,7 @@
     (property "Value" "USB-C" (at 7.62 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Library:USB" (at 7.62 0 0)
+    (property "Footprint" "Library:USB-C" (at 7.62 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 7.62 0 0)
