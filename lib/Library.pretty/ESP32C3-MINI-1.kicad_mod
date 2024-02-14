@@ -15,6 +15,8 @@
   )
   (fp_rect (start -6.6 -11) (end 6.6 5.6)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 08df1552-06da-4a44-a80d-f624ca7b3c20))
+  (fp_rect (start -6.6 -11) (end 6.6 5.6)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (tstamp 64f02c6f-bcf6-45f3-aeeb-efefb3a17dc8))
   (fp_rect (start -6.6 -5.6) (end 6.6 5.6)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 12e44bc6-a91b-4f38-ae0b-4c5eb32a9988))
   (pad "" smd rect (at -5.9 -1.6 90) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
