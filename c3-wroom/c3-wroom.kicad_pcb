@@ -217,11 +217,11 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b063dc60-8dd1-4fa5-a398-f51b2c3ffbea)
     )
-    (fp_text value "Conn_01x08_Pin" (at 0 20.11) (layer "F.Fab")
+    (fp_text value "Conn_01x08_Pin" (at 0 20.11) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f87723d7-e4ce-428c-aa09-cb578df2f95d)
     )
-    (fp_text user "${REFERENCE}" (at 0 8.89 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 8.89 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f00219e-4146-4e69-b76a-fa838a24ca28)
     )
@@ -531,11 +531,11 @@
     (property "ki_keywords" "esp32-c3 module")
     (path "/c1ca6dc5-1652-4d2f-84b6-0aaec7d3489f")
     (attr smd)
-    (fp_text reference "U1" (at 0 -14.75) (layer "F.SilkS")
+    (fp_text reference "U1" (at 0 -14.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f0888e62-26cb-4ffc-9be2-053a580f98ba)
     )
-    (fp_text value "ESP32-C3-WROOM-02" (at 0 8.75) (layer "F.Fab")
+    (fp_text value "ESP32-C3-WROOM-02" (at 0 8.75) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e3a5c49-121d-4e49-b56b-7a3b6c36ef31)
     )
@@ -543,7 +543,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 266cf74b-28df-4c69-b300-46827a4b2559)
     )
-    (fp_text user "${REFERENCE}" (at 0 -1.75) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -1.75) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 98235d0a-a9f7-4c0d-9c1a-ca465a552866)
     )
@@ -722,11 +722,11 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7feafc64-0f09-4af9-bff5-b78ef8d4e9a8)
     )
-    (fp_text value "Conn_01x08_Pin" (at 0 20.11) (layer "F.Fab")
+    (fp_text value "Conn_01x08_Pin" (at 0 20.11) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89326109-fbe0-4a60-a4b5-1b3338759670)
     )
-    (fp_text user "${REFERENCE}" (at 0 8.89 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 8.89 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85e27732-e4db-4bf5-ae56-a6232ff9bcb8)
     )
