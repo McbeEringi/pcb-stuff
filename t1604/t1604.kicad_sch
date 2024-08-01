@@ -6497,7 +6497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:sw_push_smd"
+		(property "Footprint" "Library:alps-skrp"
 			(at 247.65 93.98 0)
 			(effects
 				(font
