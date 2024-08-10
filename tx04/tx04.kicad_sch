@@ -3679,12 +3679,6 @@
 		(color 0 0 0 0)
 		(uuid "19677087-2fe8-45b0-a497-8f52cdd62102")
 	)
-	(junction
-		(at 92.71 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e128a943-d511-488b-94e6-33a9a48faa05")
-	)
 	(no_connect
 		(at 49.53 87.63)
 		(uuid "270a10bf-fe88-434b-9aa2-8e13a8fd4200")
@@ -3710,16 +3704,6 @@
 			(type default)
 		)
 		(uuid "20b8c2fb-1f40-4ab7-ba0b-4a7f722f0a69")
-	)
-	(wire
-		(pts
-			(xy 90.17 71.12) (xy 92.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5720022e-b7fd-42d2-9ed7-1609e3a2cc11")
 	)
 	(wire
 		(pts
@@ -5233,72 +5217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 92.71 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cc76c0c-8e9e-429f-94b4-31a7559c6e62")
-		(property "Reference" "#PWR08"
-			(at 92.71 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 92.71 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "592b83e9-1036-4266-b411-43359447364f")
-		)
-		(instances
-			(project "t1604"
-				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:TS5A23159DGS")
 		(at 166.37 96.52 0)
 		(unit 3)
@@ -5634,6 +5552,72 @@
 			(project "t202"
 				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 90.17 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc89d98-321a-4822-b450-f298d09ae3d5")
+		(property "Reference" "#PWR09"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18d81b4-b3ce-46ad-a35d-264d0a88512e")
+		)
+		(instances
+			(project "tx04"
+				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6880,6 +6864,73 @@
 			(project "t202"
 				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c6e71c-004a-468b-8a9e-45cb8b63bb69")
+		(property "Reference" "#PWR08"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691226a2-50cf-4d62-afe0-b92005c5bc45")
+		)
+		(instances
+			(project "tx04"
+				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
