@@ -8217,6 +8217,28 @@
 			)
 		)
 	)
+	(global_label "TNOW"
+		(shape bidirectional)
+		(at 203.2 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb0b277e-2af2-46e5-802b-4902f664b56c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 31.4635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PF[0..6]"
 		(shape bidirectional)
 		(at 132.08 143.51 0)
@@ -8688,6 +8710,73 @@
 			(project "m4809"
 				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 203.2 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11fc22f4-473a-43a6-a7e6-bb2493772d68")
+		(property "Reference" "#PWR023"
+			(at 203.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ec907d-ea87-4995-af12-b95420611ba1")
+		)
+		(instances
+			(project "mx09"
+				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10886,6 +10975,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 203.2 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d323b76d-adbc-4aa1-b709-aec008526af3")
+		(property "Reference" "D2"
+			(at 207.01 44.7675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 207.01 47.3075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 203.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66bc6be5-275c-47f5-9907-8dca256163bf")
+		)
+		(pin "2"
+			(uuid "c5d54647-f3d4-413b-8069-4c9d40cf0a1e")
+		)
+		(instances
+			(project "mx09"
+				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 27.94 270)
 		(unit 1)
@@ -11148,6 +11307,76 @@
 			(project "t1604"
 				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ebcf17-62c6-41b1-b08c-3a10ad1dc4f9")
+		(property "Reference" "R7"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 201.422 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab588112-cd72-4067-9696-368c72f068c5")
+		)
+		(pin "2"
+			(uuid "42fbf9e2-10e4-4973-9d1c-f23ccdafc049")
+		)
+		(instances
+			(project "mx09"
+				(path "/d25b5218-2adb-4dad-ba1c-be3909cba342"
+					(reference "R7")
 					(unit 1)
 				)
 			)
