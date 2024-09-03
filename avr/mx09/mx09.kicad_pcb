@@ -195,7 +195,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "921bca40-f1b0-46a3-b59b-3c2d82b70bad")
+			(uuid "317bdebc-570f-46ea-bc65-fc91e3fc1f22")
 			(effects
 				(font
 					(size 1 1)
@@ -208,7 +208,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d098ce6-acdc-40c2-8dd6-115a142347ee")
+			(uuid "1469c4ef-6f1c-4380-9612-f88695a34449")
 			(effects
 				(font
 					(size 1 1)
@@ -221,7 +221,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb24b286-9611-4bf0-bb42-5a413f813344")
+			(uuid "7eb911de-5a8f-4cdf-8475-bc2a3d119b09")
 			(effects
 				(font
 					(size 1 1)
@@ -234,7 +234,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cff1a54-8d91-4175-9686-40af3cd1d8fd")
+			(uuid "698fd003-98d3-4084-9ccf-770df3b25294")
 			(effects
 				(font
 					(size 1 1)
@@ -247,7 +247,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "338eba59-2fff-436f-9e80-7be770c9ebaa")
+			(uuid "3d969910-039d-4fe5-ae94-392224425a6f")
 			(effects
 				(font
 					(size 1 1)
@@ -259,16 +259,25 @@
 		(sheetname "ルート")
 		(sheetfile "mx09.kicad_sch")
 		(attr smd)
-		(fp_rect
-			(start 2.7 1.5)
-			(end -2.7 -1.5)
+		(fp_line
+			(start -1 1.5)
+			(end 1 1.5)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type default)
 			)
-			(fill none)
 			(layer "F.SilkS")
-			(uuid "74d75c76-7208-4584-814d-0a46ffd3aba4")
+			(uuid "2ff412f0-4d11-4c88-a1d7-729871ea9af2")
+		)
+		(fp_line
+			(start -1 -1.5)
+			(end 1 -1.5)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5d535531-91db-49d3-9f9f-cd6f44371acb")
 		)
 		(fp_rect
 			(start 2.8 1.6)
@@ -279,7 +288,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1b07aca0-2a0f-4da6-9710-47a04f3e0351")
+			(uuid "3b65842d-06f0-496f-94f9-96155165ef74")
 		)
 		(pad "1" smd rect
 			(at -2.075 1.075 270)
@@ -289,7 +298,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9e5b4511-c111-48fa-9b8d-5d90663d7638")
+			(uuid "55c115b0-e663-4d53-b3f9-1921afd9f21e")
 		)
 		(pad "1" smd rect
 			(at 2.075 1.075 270)
@@ -299,7 +308,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c00edbcb-883f-4646-8cee-b30290d0ae82")
+			(uuid "e27d493c-5115-4502-80dd-d853e622154f")
 		)
 		(pad "2" smd rect
 			(at -2.075 -1.075 270)
@@ -309,7 +318,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a1157e41-bcd6-4edb-9fb8-8271aaf50727")
+			(uuid "b3507fda-e612-47a5-9603-d5bebaeb2135")
 		)
 		(pad "2" smd rect
 			(at 2.075 -1.075 270)
@@ -319,7 +328,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4a3c07f1-6bf6-43bf-ab2d-7c3abe400587")
+			(uuid "515ba44d-e6c6-41df-8e0d-756d281bc516")
 		)
 	)
 	(footprint "Package_DIP:DIP-48_W15.24mm_Socket"
@@ -1432,7 +1441,7 @@
 		(uuid "a6d893f9-0e51-45b2-8ccd-ddf6b09bde6d")
 		(at 152.5 100)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7c1f52ce-798c-47a0-a78b-066f86124b4d")
@@ -1444,7 +1453,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3213e0c6-dc4f-42b6-8393-7ef69c23e957")
@@ -1456,7 +1465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9c26a32-63a3-4c46-ac29-3464e053f4f9")
@@ -1468,7 +1477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76146504-f06d-4ed7-9945-8d885c505f4e")
@@ -1480,7 +1489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02bdbc60-f627-47a0-9c5d-e9d69f3f6cd8")
@@ -3091,7 +3100,7 @@
 		(uuid "cc0954fd-5e5c-4f50-b4a1-7be5f21c6eec")
 		(at 142.5 100)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c39d8b95-c519-4dc1-953f-26efb9671400")
@@ -3103,7 +3112,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e7d04ade-ff54-47f1-bb37-fd61592b9587")
@@ -3115,7 +3124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "635af551-adee-41a5-b6ef-ccc2c3b337f1")
@@ -3127,7 +3136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fcd02c6a-7d1f-415b-89c2-429e4da4591e")
@@ -3139,7 +3148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "accad5a8-ff8b-47d2-8d79-efe199c70b10")
@@ -5381,7 +5390,7 @@
 		(uuid "c09c28e6-2af7-4abb-95a3-b3f340efc9b9")
 		(at 133.02 101.27 180)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c9f9dc4b-578b-432a-bf36-14c87a3d6fe0")
@@ -5394,7 +5403,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "59ba65e7-6439-4a88-9cb7-bc26c89ff73e")
@@ -5407,7 +5416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70fad8df-8538-4654-b3ed-c2451be92954")
@@ -5420,7 +5429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "837366d7-6792-4474-ba6c-99b0e7018d2c")
@@ -5433,7 +5442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7e2c3bd0-4c19-4bee-aa34-e4cb0a494ae0")
