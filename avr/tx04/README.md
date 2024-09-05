@@ -1,10 +1,10 @@
 # tinyAVR X04 開発基板
 
-ATtiny 204 404 804 1604 の開発基板
+ATtiny 204, 404, 804, 1604 の開発基板
 
-CH340Eによる書込回路付き
+USB-UART変換`CH340E`によるSerialUPDI書込回路付き
 
-アナログスイッチによる書込<=>UART切替付き
+アナログスイッチ`TS5A23159DGSR`による書込<=>UART切替付き
 
 <https://github.com/BlackBrix/SerialUPDI-programmer>
 
@@ -18,6 +18,10 @@ CH340Eによる書込回路付き
 Linuxでは疎通するがWindowsではしない
 
 RTS#ピンのデフォルト状態の違いのせい?
+
+platformioでシリアルモニタを見るには
+
+`pio device monitor --rts 0`
 
 ### 解決策
 
