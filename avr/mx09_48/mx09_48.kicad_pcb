@@ -635,17 +635,6 @@
 			(layer "F.Fab")
 			(uuid "69bbcaa0-4cbd-49b1-8446-8b7eb932178c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 45)
-			(layer "F.Fab")
-			(uuid "26268358-7a91-433b-80c4-300389e89c15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -4.1625 -2.75 45)
 			(size 1.475 0.3)
@@ -1341,17 +1330,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "fddfed87-e8a6-493d-8f7e-546a576e5df7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 7.62 29.21 90)
-			(layer "F.Fab")
-			(uuid "b8a59152-f9e1-44b4-ac11-e48b42b2ac10")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
