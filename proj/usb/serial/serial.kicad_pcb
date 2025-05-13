@@ -677,6 +677,7 @@
 		(property "Value" "OUT"
 			(at 0 15.47 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "743e84d3-eed2-4f10-87d9-6edf7857b94c")
 			(effects
 				(font
@@ -803,17 +804,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "42df4cde-5435-4621-9577-90c2e4ba1098")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 6.35 90)
-			(layer "F.Fab")
-			(uuid "d586e317-ef7e-4e56-ae25-ff6a1ae12abf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -4278,12 +4268,36 @@
 		)
 	)
 	(segment
-		(start 108.75 96)
-		(end 108.1125 96)
-		(width 0.25)
+		(start 107.975 100.645)
+		(end 107.43 100.645)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "6eb4aa9d-1893-4b8e-b918-cafddf9843ae")
+		(uuid "49751dc7-fd08-4a21-a066-b9c4cb3dc551")
+	)
+	(segment
+		(start 108.55 100.07)
+		(end 107.975 100.645)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "68e847d8-9f9c-4f77-a613-769ff1b52c68")
+	)
+	(segment
+		(start 116.07 100.645)
+		(end 115.525 100.645)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "6ef8b030-f540-4549-a4a5-0a205ffc2f3e")
+	)
+	(segment
+		(start 115.525 100.645)
+		(end 114.95 100.07)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8f3d058f-6a37-4b56-8fa6-9708bb38ea16")
 	)
 	(via
 		(at 117.5 94)
