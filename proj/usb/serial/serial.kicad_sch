@@ -2521,6 +2521,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3583,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 135.89 76.2)
+			(xy 130.81 76.2) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3593,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 135.89 104.14)
+			(xy 130.81 104.14) (xy 138.43 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3775,7 +3960,7 @@
 	)
 	(global_label "RXD"
 		(shape input)
-		(at 143.51 93.98 0)
+		(at 146.05 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3785,7 +3970,7 @@
 		)
 		(uuid "40fffedf-4112-496c-8b95-19a3d879e38b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.2447 93.98 0)
+			(at 152.7847 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4114,7 @@
 	)
 	(global_label "RTS#"
 		(shape input)
-		(at 129.54 104.14 180)
+		(at 130.81 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3939,7 +4124,7 @@
 		)
 		(uuid "6aa07290-213f-4065-81a9-1b4991d5dc55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 111.8423 90)
+			(at 130.81 111.8423 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +4136,7 @@
 	)
 	(global_label "UPDI|BOOT"
 		(shape input)
-		(at 143.51 99.06 0)
+		(at 146.05 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3961,7 +4146,7 @@
 		)
 		(uuid "7f17703c-1fa3-4510-85af-821ad0513921")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9705 99.06 0)
+			(at 153.5105 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4158,7 @@
 	)
 	(global_label "UPDI|BOOT"
 		(shape input)
-		(at 143.51 71.12 0)
+		(at 146.05 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3983,7 +4168,7 @@
 		)
 		(uuid "84d918ca-2be3-4c34-a158-ad082a2ed1bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9705 71.12 0)
+			(at 153.5105 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4290,7 @@
 	)
 	(global_label "_TXD"
 		(shape input)
-		(at 128.27 68.58 180)
+		(at 130.81 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4115,7 +4300,7 @@
 		)
 		(uuid "9afd9d58-ab4c-4fc8-8883-353cc3aacbc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.8701 68.58 0)
+			(at 123.4101 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4312,7 @@
 	)
 	(global_label "RTS#"
 		(shape input)
-		(at 129.54 76.2 180)
+		(at 130.81 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4137,7 +4322,7 @@
 		)
 		(uuid "b428b749-e152-4c44-a972-2dc9a8c5209f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.8377 76.2 0)
+			(at 123.1077 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4400,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 143.51 66.04 0)
+		(at 146.05 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4225,7 +4410,7 @@
 		)
 		(uuid "d692a19f-6284-46c9-b45e-0cfee4782dca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9423 66.04 0)
+			(at 152.4823 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4554,7 @@
 	)
 	(global_label "_RXD"
 		(shape input)
-		(at 128.27 96.52 180)
+		(at 130.81 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4379,7 +4564,7 @@
 		)
 		(uuid "fd080f3e-28cc-447e-a495-63fbf5d3b7a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5677 96.52 0)
+			(at 123.1077 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,6 +4728,72 @@
 			(project ""
 				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 48.26 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12242baa-cfdc-43d8-ad36-0f8907a909d4")
+		(property "Reference" "#PWR012"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 48.26 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a0d0332-aa59-4690-9b85-15286ae0c276")
+		)
+		(instances
+			(project ""
+				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4742,6 +4993,76 @@
 			(project ""
 				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 48.26 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac9fe42-8b55-4998-b6ea-4408c1edfdf7")
+		(property "Reference" "R3"
+			(at 50.8 33.0199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 50.8 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e917e17d-a4df-4a73-b946-1358c82c7c64")
+		)
+		(pin "2"
+			(uuid "ab135e57-e41a-499b-b7ac-295f50438e96")
+		)
+		(instances
+			(project "serial"
+				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4955,7 +5276,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A23159DGS")
-		(at 135.89 96.52 0)
+		(at 138.43 96.52 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4964,7 +5285,7 @@
 		(fields_autoplaced yes)
 		(uuid "25bad316-a4ae-45ab-a511-0558e090e492")
 		(property "Reference" "U2"
-			(at 135.89 87.63 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5293,7 @@
 			)
 		)
 		(property "Value" "TS5A23159DGS"
-			(at 135.89 90.17 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5301,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 137.16 108.585 0)
+			(at 139.7 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +5311,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a23159.pdf"
-			(at 137.16 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5321,7 @@
 			)
 		)
 		(property "Description" "Dual SPDT 1ohm Bidirectional Analog Switch with Off protection, VSSOP-10"
-			(at 135.89 96.52 0)
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,6 +6020,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 48.26 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7702e6c3-ce2b-4906-b08d-1bb1f79dc4c9")
+		(property "Reference" "D1"
+			(at 50.8 38.0364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POWER"
+			(at 50.8 40.5764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 48.26 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b34488b-f0bf-44c8-a271-5938cc9e2473")
+		)
+		(pin "2"
+			(uuid "44af3d3b-2aff-4161-a68f-49df44844e33")
+		)
+		(instances
+			(project "serial"
+				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 31.75 81.28 0)
 		(unit 1)
@@ -5813,7 +6212,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A23159DGS")
-		(at 135.89 68.58 0)
+		(at 138.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5822,7 +6221,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab2ae213-4795-4e69-8dda-deaf7b879780")
 		(property "Reference" "U2"
-			(at 135.89 59.69 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +6229,7 @@
 			)
 		)
 		(property "Value" "TS5A23159DGS"
-			(at 135.89 62.23 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6237,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 137.16 80.645 0)
+			(at 139.7 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +6247,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a23159.pdf"
-			(at 137.16 82.55 0)
+			(at 139.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +6257,7 @@
 			)
 		)
 		(property "Description" "Dual SPDT 1ohm Bidirectional Analog Switch with Off protection, VSSOP-10"
-			(at 135.89 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,6 +6673,72 @@
 			(project ""
 				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04c7dfd-dae5-4837-9f9f-c281f30ece08")
+		(property "Reference" "#PWR017"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dab8d69-aca4-425f-8ebb-4347f4c249e4")
+		)
+		(instances
+			(project ""
+				(path "/8d409a2f-ce33-46fd-b1b4-3dcae3f8e0cf"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
