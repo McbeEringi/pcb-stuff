@@ -667,7 +667,7 @@
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5212531c-fd65-4f6d-99f8-22a1e9c39177")
+			(uuid "62665cc7-3d58-4cde-9cf2-619831c1d7b0")
 			(effects
 				(font
 					(size 1 1)
@@ -679,7 +679,7 @@
 			(at 0 15.47 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "743e84d3-eed2-4f10-87d9-6edf7857b94c")
+			(uuid "3d397dbd-4c9c-470a-834a-489861fa727d")
 			(effects
 				(font
 					(size 1 1)
@@ -691,7 +691,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5566d88-f8a0-46b1-9fae-6ec79bcc6251")
+			(uuid "ea060e19-1e67-4b81-bd08-289ffb86ced2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +703,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4c117b0-5a30-4553-a876-8e969d412c9d")
+			(uuid "a5baad6a-cbf9-499a-aa2f-c48c3028d686")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4060,7 @@
 			(uuid "2925bfaf-0640-4c0c-b03f-00c3a5009823")
 		)
 		(fp_text user "E"
-			(at 0 0.5 0)
+			(at -0.7 -0.51 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "db283909-2fbc-4071-88c1-154385952018")
@@ -4070,7 +4070,7 @@
 					(thickness 0.16)
 					(bold yes)
 				)
-				(justify left mirror)
+				(justify right mirror)
 			)
 		)
 		(pad "1" smd roundrect
@@ -4514,6 +4514,16 @@
 	)
 	(gr_line
 		(start 100 92.5)
+		(end 100 94)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5947cd3b-f202-4b60-a2c5-89388cf4c7ce")
+	)
+	(gr_line
+		(start 100 92.5)
 		(end 122 92.5)
 		(stroke
 			(width 0.1)
@@ -4523,7 +4533,7 @@
 		(uuid "e5557fc9-0bfc-4be0-894d-8a1a88a91f0c")
 	)
 	(gr_line
-		(start 100 92.5)
+		(start 100 106)
 		(end 100 107.5)
 		(stroke
 			(width 0.1)
@@ -4551,8 +4561,7 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
+				(thickness 0.1)
 			)
 			(justify left)
 		)
@@ -4602,15 +4611,14 @@
 		(uuid "53f94390-96c4-4071-a6c6-9d657be90717")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
+				(size 0.6 0.6)
+				(thickness 0.075)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "Writer\nUSB Serial"
-		(at 117.75 100.25 90)
+	(gr_text "USB Serial\nWriter"
+		(at 118 100.5 90)
 		(layer "B.Mask")
 		(uuid "7aad3004-0e59-44aa-adc8-0fa99741f751")
 		(effects
@@ -4635,43 +4643,40 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "\\5k1 x2/"
+	(gr_text "5k1 x2"
 		(at 111.75 106.25 0)
 		(layer "B.Mask")
 		(uuid "d34b3588-fa94-4415-9769-aae5a85cc931")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
+				(size 0.6 0.6)
+				(thickness 0.075)
 			)
 			(justify mirror)
 		)
 	)
-	(gr_text "Vreg"
-		(at 112.5 94.5 90)
+	(gr_text "AP7333"
+		(at 112.75 96.5 90)
 		(layer "B.Mask")
 		(uuid "e440b576-0912-4228-adf2-b9f30d567558")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
+				(size 0.6 0.6)
+				(thickness 0.075)
 			)
-			(justify left mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "0u1\nx3"
-		(at 107 98.25 0)
+		(at 108.25 98 0)
 		(layer "B.Mask")
 		(uuid "f91f3b8e-3030-429d-a9b9-0bcf342bbe4d")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
+				(size 0.6 0.6)
+				(thickness 0.075)
 			)
-			(justify mirror)
+			(justify left mirror)
 		)
 	)
 	(gr_text "or"
