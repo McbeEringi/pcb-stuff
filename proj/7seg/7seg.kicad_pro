@@ -511,7 +511,7 @@
     "netclass_patterns": [
       {
         "netclass": "seg",
-        "pattern": "(/_)?[A-G]"
+        "pattern": "(/_)?[A-H]"
       },
       {
         "netclass": "seg",

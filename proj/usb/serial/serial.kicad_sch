@@ -3718,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 127 45.72)
+			(xy 128.27 35.56) (xy 127 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3798,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 35.56) (xy 127 35.56)
+			(xy 119.38 45.72) (xy 127 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4004,7 +4004,7 @@
 	)
 	(global_label "RTS#"
 		(shape input)
-		(at 119.38 35.56 180)
+		(at 119.38 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4014,7 +4014,7 @@
 		)
 		(uuid "4d7bd1e0-f35f-41b4-9900-86e358dd0ad4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.6777 35.56 0)
+			(at 111.6777 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4356,7 @@
 	)
 	(global_label "UPDI|BOOT"
 		(shape input)
-		(at 128.27 45.72 0)
+		(at 128.27 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4366,7 +4366,7 @@
 		)
 		(uuid "c82dc839-1483-4418-8ac2-ae9da4db78ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5967 45.72 0)
+			(at 141.5967 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5670,6 @@
 		(lib_name "BSS138_1")
 		(lib_id "Transistor_FET:BSS138")
 		(at 124.46 40.64 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5678,7 +5677,7 @@
 		(dnp no)
 		(uuid "39f3cbb4-d684-4237-a4e3-6dd375ab7f7d")
 		(property "Reference" "Q2"
-			(at 130.81 41.9101 0)
+			(at 130.81 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5686,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 130.81 39.3701 0)
+			(at 130.81 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5695,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 129.54 38.735 0)
+			(at 129.54 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5706,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 129.54 36.83 0)
+			(at 129.54 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
