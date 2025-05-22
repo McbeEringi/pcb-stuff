@@ -552,16 +552,6 @@
 		(sheetname "/")
 		(sheetfile "serial.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -6 0)
-			(end 6 0)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "31b6157e-67fd-4d03-8945-b5a9e246110e")
-		)
 		(fp_rect
 			(start -6 -3.9)
 			(end 6 16.3)
@@ -571,7 +561,29 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b1ccf2ed-1f0a-4055-9871-eca609be10c0")
+			(uuid "50063109-e31c-4940-a9e0-6f202d32d6b1")
+		)
+		(fp_line
+			(start -6 0)
+			(end 6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ced0e23-9662-4ba2-bfba-261705a7338d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 20.5 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8994a448-5a90-45fa-9bd8-f0112ce7de10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "" np_thru_hole circle
 			(at -2.25 -2.9 270)
@@ -579,7 +591,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(thermal_bridge_angle 90)
-			(uuid "3008e896-4c42-480f-bc19-282638c2a387")
+			(uuid "3ca08a5f-d5c4-4fdc-80fd-bd49395eb74e")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.25 -2.9 270)
@@ -587,7 +599,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(thermal_bridge_angle 90)
-			(uuid "fc30a65d-0bc0-4900-9152-aad4534392a4")
+			(uuid "1d893ce5-66e9-48ea-b261-955289e6d574")
 		)
 		(pad "1" thru_hole rect
 			(at -3.5 -5.3 270)
@@ -653,7 +665,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "d625b69f-95ae-4dc3-a8c7-3ec961b462e9")
+			(uuid "4fc82e37-8ffd-4289-bfca-96c0ea0ba787")
 		)
 		(embedded_fonts no)
 	)
@@ -4496,7 +4508,7 @@
 		(start 122 92.5)
 		(end 122 107.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -4506,7 +4518,7 @@
 		(start 100 107.5)
 		(end 122 107.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -4514,9 +4526,9 @@
 	)
 	(gr_line
 		(start 100 92.5)
-		(end 100 94)
+		(end 100 107.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -4526,21 +4538,11 @@
 		(start 100 92.5)
 		(end 122 92.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e5557fc9-0bfc-4be0-894d-8a1a88a91f0c")
-	)
-	(gr_line
-		(start 100 106)
-		(end 100 107.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f602217c-b95b-41cc-8ff4-d3031f9aeeb8")
 	)
 	(gr_text " V G   R T  EG BU"
 		(at 118.75 100 90)

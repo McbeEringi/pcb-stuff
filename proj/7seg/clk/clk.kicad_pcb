@@ -643,16 +643,6 @@
 		(sheetname "/")
 		(sheetfile "clk.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -6 0)
-			(end 6 0)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "397e79cd-3ce3-4e34-b142-abfc8590d156")
-		)
 		(fp_rect
 			(start -6 -3.9)
 			(end 6 16.3)
@@ -662,7 +652,17 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "2573621e-c438-46b0-bc16-025d079f6849")
+			(uuid "d7f32c87-6954-4140-ad92-6bf590f56b10")
+		)
+		(fp_line
+			(start -6 0)
+			(end 6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f968373-dd9f-42e5-a6c5-83f2ba88e049")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 20.5 270)
@@ -682,7 +682,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(thermal_bridge_angle 90)
-			(uuid "cc31b7ea-817c-4731-b214-65849d610baf")
+			(uuid "a18eead7-b050-4424-95b1-314487045b61")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.25 -2.9 270)
@@ -690,7 +690,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(thermal_bridge_angle 90)
-			(uuid "f2c8c05b-ee21-4975-89d8-d10c38e78ccb")
+			(uuid "ee28c1e6-15f9-4afe-971c-2031a9f34a21")
 		)
 		(pad "1" thru_hole rect
 			(at -3.5 -5.3 270)
@@ -756,7 +756,7 @@
 			(net 2 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "6623d906-69df-4db5-a7d3-54f2f0bb77f7")
+			(uuid "7aa36630-431b-43fb-8463-c1e48fe6a333")
 		)
 		(embedded_fonts no)
 	)
@@ -3057,7 +3057,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "1e4d7718-e40a-4250-9726-a643a1ca98f5")
+			(uuid "1d3b6ead-d06a-4f10-944c-8bab0492731d")
 		)
 		(pad "2" smd rect
 			(at -2.075 1.075)
@@ -3077,7 +3077,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "7e41dc9c-bfea-4dca-b28e-59526c5cd610")
+			(uuid "a6a9f2ce-370d-4115-acdb-302e38b38ee7")
 		)
 		(embedded_fonts no)
 	)
@@ -4031,7 +4031,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "94cbf772-8d48-403c-a40a-72c6675e79b3")
+			(uuid "6ca1f159-9016-4a9d-9634-bbe06e12bdad")
 		)
 		(pad "2" smd rect
 			(at -2.075 1.075 180)
@@ -4051,7 +4051,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "47ef76dd-8abd-464c-990e-56c857999823")
+			(uuid "bc92f045-89b5-4e55-b9eb-488e1247d8ec")
 		)
 		(embedded_fonts no)
 	)
@@ -6965,7 +6965,7 @@
 	)
 	(gr_line
 		(start 71.25 92.5)
-		(end 71.25 94)
+		(end 71.25 107.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6982,16 +6982,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e38f0aff-b251-4cc1-b58f-eab409385296")
-	)
-	(gr_line
-		(start 71.25 106)
-		(end 71.25 107.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f83e981b-621a-4fd6-a615-8ea75e34a3aa")
 	)
 	(gr_text "C"
 		(at 104.75 103 0)
