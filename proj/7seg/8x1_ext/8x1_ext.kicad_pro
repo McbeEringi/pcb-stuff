@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -494,13 +494,6 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5
-      },
-      {
-        "name": "seg",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25
       }
     ],
     "meta": {
@@ -510,11 +503,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "seg",
+        "netclass": "Default",
         "pattern": "(/_)?[A-H]"
       },
       {
-        "netclass": "seg",
+        "netclass": "Default",
         "pattern": "C\\d"
       },
       {
