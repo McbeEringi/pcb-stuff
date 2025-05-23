@@ -53,15 +53,15 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -6 -3.9)
-		(end 6 16.3)
+		(start -6 -3.9254)
+		(end 6 0)
 		(stroke
-			(width 0.05)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "81f45454-f2e3-4c4d-9897-bd8117a32ef9")
+		(uuid "97dc5898-92ad-49ce-a09d-eff393cae431")
 	)
 	(fp_line
 		(start -6 0)
@@ -72,6 +72,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "5b6ae3e0-c174-4aeb-944c-68029f0d1e81")
+	)
+	(fp_rect
+		(start -6 -3.9)
+		(end 6 16.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "81f45454-f2e3-4c4d-9897-bd8117a32ef9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 20.5 0)
