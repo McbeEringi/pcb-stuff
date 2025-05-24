@@ -313,7 +313,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "4fc82e37-8ffd-4289-bfca-96c0ea0ba787")
+			(uuid "fe6469c2-7942-4694-90bf-4cb08a5f830e")
 		)
 		(embedded_fonts no)
 	)
