@@ -6652,6 +6652,19 @@
 			)
 		)
 	)
+	(gr_text "> __43:21d _GFEDCBA"
+		(at 100 100 0)
+		(layer "B.SilkS")
+		(uuid "191ce85e-3371-4ef9-8968-c2f6fefa12bc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(segment
 		(start 106.9375 100.4)
 		(end 107.8 100.4)

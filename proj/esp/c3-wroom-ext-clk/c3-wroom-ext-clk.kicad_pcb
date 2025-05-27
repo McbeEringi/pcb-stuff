@@ -7447,6 +7447,18 @@
 			)
 		)
 	)
+	(gr_text "> __43_21d _GFEDCBA"
+		(at 97 122.5 0)
+		(layer "F.SilkS")
+		(uuid "5e52f5f8-4fcb-4392-b3b0-086c10804c05")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "R_PHOTO"
 		(at 127.6 106 90)
 		(layer "F.SilkS")
