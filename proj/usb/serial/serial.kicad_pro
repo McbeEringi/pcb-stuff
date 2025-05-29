@@ -506,7 +506,7 @@
     "netclass_patterns": [
       {
         "netclass": "pow",
-        "pattern": "VCC|GND|VREG"
+        "pattern": "VCC|GND|VREG|VOUT"
       }
     ]
   },
