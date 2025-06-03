@@ -12000,8 +12000,8 @@
 		(uuid "fca8bc1b-ef7a-4978-97aa-d58f7d618019")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.2)
+				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify mirror)
