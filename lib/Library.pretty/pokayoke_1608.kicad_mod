@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_line
 		(start -1.4 -1.4)
-		(end -1.4 0.4)
+		(end -1.4 -0.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,7 +65,7 @@
 		(uuid "b14c22c1-3e45-4c0c-8874-02d69261216e")
 	)
 	(fp_line
-		(start -0.2 -1.4)
+		(start 0.4 -1.4)
 		(end -1.4 -1.4)
 		(stroke
 			(width 0.1)
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start 1.4 1.4)
-		(end 1.4 -0.4)
+		(end -0.4 1.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,11 +115,11 @@
 		(uuid "f3dbfcd2-e227-425d-bb5b-bd5fa071ab5a")
 	)
 	(pad "2" smd roundrect
-		(at -0.8 0.8)
+		(at 0.8 -0.8)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ea8e0299-51f2-46a4-afc9-06d6891009f5")
+		(uuid "f4d7b5f0-b289-4b78-9708-608b7870f1da")
 	)
 	(pad "3" smd roundrect
 		(at 0.8 0.8)
@@ -129,11 +129,11 @@
 		(uuid "8083cdaf-b5d3-4b45-84da-bc01d8e7a799")
 	)
 	(pad "4" smd roundrect
-		(at 0.8 -0.8)
+		(at -0.8 0.8)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "f4d7b5f0-b289-4b78-9708-608b7870f1da")
+		(uuid "ea8e0299-51f2-46a4-afc9-06d6891009f5")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
