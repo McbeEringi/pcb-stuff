@@ -2631,166 +2631,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:pokayoke"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "pokayoke"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Library:pokayoke_1608"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "pokayoke_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 0) (xy 0 -2.54) (xy 2.54 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "pokayoke_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Microchip_ATtiny:ATtiny1604-SS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3950,7 +3790,7 @@
 	)
 	(global_label "PB2"
 		(shape bidirectional)
-		(at 118.11 137.16 0)
+		(at 113.03 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3960,7 +3800,7 @@
 		)
 		(uuid "4e68547d-bacb-446b-a42e-2179e998fe0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.956 137.16 0)
+			(at 120.876 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4142,7 @@
 	)
 	(global_label "PB3"
 		(shape bidirectional)
-		(at 118.11 134.62 0)
+		(at 113.03 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4312,7 +4152,7 @@
 		)
 		(uuid "d2eaa00a-9a70-4a43-8bbc-60d7fb84896c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.956 134.62 0)
+			(at 120.876 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,6 +4467,74 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 137.16 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01cfc523-f54d-4298-a8cb-571aab73a66a")
+		(property "Reference" "R4"
+			(at 110.49 142.24 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 110.49 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4a5a262-ca78-4012-812f-ead56025eb7e")
+		)
+		(pin "1"
+			(uuid "a9b010eb-437e-4c8d-8e11-47546662136e")
+		)
+		(instances
+			(project "tx04"
+				(path "/73158485-b41d-4a6f-a576-c7b38822ce40"
+					(reference "R4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5853,80 +5761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:pokayoke")
-		(at 111.76 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "901c5f6e-643f-4047-85a2-fcedb1959963")
-		(property "Reference" "JP1"
-			(at 113.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 113.03 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:pokayoke_1608"
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07a48c53-03ef-4702-95e5-f7efa0f85d60")
-		)
-		(pin "4"
-			(uuid "ce79a395-8e34-4991-bdea-97a78e2dad13")
-		)
-		(pin "2"
-			(uuid "a754da3f-553c-42ef-b57a-9dcb2a08b992")
-		)
-		(pin "3"
-			(uuid "a9cd48c2-6a42-4ea3-8958-f1fb1d1b55c3")
-		)
-		(instances
-			(project ""
-				(path "/73158485-b41d-4a6f-a576-c7b38822ce40"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 34.29 76.2 0)
 		(unit 1)
@@ -7009,6 +6843,73 @@
 			(project ""
 				(path "/73158485-b41d-4a6f-a576-c7b38822ce40"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6786c7d-9e85-459b-a505-eeb055ef3f25")
+		(property "Reference" "R3"
+			(at 110.49 129.54 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 110.49 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29d5bc9f-d66c-4204-aaeb-05c5c743b2aa")
+		)
+		(pin "1"
+			(uuid "da8eb071-1003-4738-a8d9-236394b7f49b")
+		)
+		(instances
+			(project "tx04"
+				(path "/73158485-b41d-4a6f-a576-c7b38822ce40"
+					(reference "R3")
 					(unit 1)
 				)
 			)
