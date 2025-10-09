@@ -1975,7 +1975,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "7d0ea061-7725-4fa0-8596-cac2f79239c4")
+			(uuid "acf4c369-d7e3-4d25-b5e4-654c822697cc")
 		)
 		(pad "2" thru_hole circle
 			(at 0 -1.27)
@@ -1997,7 +1997,7 @@
 			(net 3 "VBUS")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "a1d099eb-2f00-4f71-be12-3756c85e83ff")
+			(uuid "0df8dcd4-b523-4b2d-8c07-7784020b58c3")
 		)
 		(embedded_fonts no)
 	)
@@ -2080,14 +2080,14 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "PD TRG\nFIXED"
-		(at 103.2 96 -0)
+	(gr_text "CH221K\nFIXED\nPD TRG"
+		(at 103.4 96.2 0)
 		(layer "B.Mask")
 		(uuid "db65f4d6-27e0-4d50-bf7f-09b57e4b1935")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
+				(size 0.5 0.5)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify mirror)
