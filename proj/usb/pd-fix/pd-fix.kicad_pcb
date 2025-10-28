@@ -2080,7 +2080,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CH221K\nFIXED\nPD TRG"
+	(gr_text "CH221K\nPD-FIX"
 		(at 103.4 96.2 0)
 		(layer "B.Mask")
 		(uuid "db65f4d6-27e0-4d50-bf7f-09b57e4b1935")
