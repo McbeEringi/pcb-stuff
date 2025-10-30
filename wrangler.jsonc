@@ -6,6 +6,10 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "pcb-stuff",
 	"compatibility_date": "2025-10-29",
+	"build":{
+		"command":"bun build.mjs",
+		"watch_dir":"src"
+	},
 	"routes": [
 		{
 			"pattern": "pcb.mcbeeringi.dev",
@@ -14,7 +18,7 @@
 	],
 	"assets": {
 		// The path to the directory containing the `index.html` file to be served at `/`
-		"directory": "./public"
+		"directory": "./dst"
 	},
 	"observability": {
 		"enabled": true

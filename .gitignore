@@ -4,3 +4,4 @@ fp-info-cache
 production/
 node_modules/
 .**
+dst/
