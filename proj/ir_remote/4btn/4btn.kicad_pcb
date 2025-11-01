@@ -3754,6 +3754,18 @@
 			)
 		)
 	)
+	(gr_text "PA3"
+		(at 98.8 82.4 0)
+		(layer "F.Mask")
+		(uuid "800862ca-1211-45ff-9070-8b644e13b184")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "PA2"
 		(at 104.4 81.2 315)
 		(layer "F.Mask")

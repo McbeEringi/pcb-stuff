@@ -4461,6 +4461,18 @@
 		(layer "Edge.Cuts")
 		(uuid "ff71d177-a95c-4576-9c5b-512c9ab54518")
 	)
+	(gr_text "MJ-8435"
+		(at 90 96 0)
+		(layer "F.Mask")
+		(uuid "88fdfe09-8d8a-4eae-a99c-fd1cca652ea8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "PAM8408"
 		(at 101.4 96.8 270)
 		(layer "F.Mask")
