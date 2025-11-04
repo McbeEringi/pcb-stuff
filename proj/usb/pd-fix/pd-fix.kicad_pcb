@@ -2102,12 +2102,28 @@
 		(uuid "2e6f6e4d-ba6d-4820-ad57-4f8d07f11211")
 	)
 	(via
+		(at 95.575 103.2)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "593eac45-3043-4d4f-bfcd-6eb4fc5bc8a5")
+	)
+	(via
 		(at 100.6 96.8)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "78b14550-1e9a-4fad-8640-fa74dad5f947")
+	)
+	(via
+		(at 95.625 100)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "bf95e940-0186-4f79-949a-436233d36932")
 	)
 	(via
 		(at 101.2 103.2)
