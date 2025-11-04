@@ -2059,7 +2059,7 @@
 	)
 	(no_connect
 		(at 34.29 106.68)
-		(uuid "2aa11c3d-4a82-43f8-a342-49feac5ac79e")
+		(uuid "95cec1cc-4415-4993-9ff2-de85fa6aabc8")
 	)
 	(wire
 		(pts
@@ -5282,7 +5282,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 24.13 109.22 90)
+		(at 34.29 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5291,7 +5291,7 @@
 		(fields_autoplaced yes)
 		(uuid "70b4dd04-1f62-4de0-81a7-93f8dcfcac30")
 		(property "Reference" "#PWR013"
-			(at 27.94 109.22 0)
+			(at 30.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5300,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 20.32 109.2199 90)
+			(at 38.1 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 109.22 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 109.22 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 24.13 109.22 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5769,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 34.29 111.76 270)
+		(at 24.13 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5778,7 +5778,7 @@
 		(fields_autoplaced yes)
 		(uuid "91afc10f-c046-43fb-9ced-e1ac2b212470")
 		(property "Reference" "#PWR014"
-			(at 30.48 111.76 0)
+			(at 27.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,16 +5787,15 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 38.1 111.7599 90)
+			(at 22.86 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 111.76 0)
+			(at 24.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 111.76 0)
+			(at 24.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 34.29 111.76 0)
+			(at 24.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+		(property "Footprint" "Library:sw_tht"
 			(at 29.21 109.22 0)
 			(effects
 				(font
