@@ -713,6 +713,7 @@
 			(at 17.5 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fbe0de56-7474-4f15-9120-8b89a9ded358")
 			(effects
 				(font
@@ -725,6 +726,7 @@
 			(at 19 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9c1a9397-2991-4113-9529-b014b1d3847b")
 			(effects
 				(font
@@ -793,18 +795,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "37b8f4f2-65e0-4062-90d6-1cd599562b93")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 20.5 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4c879d47-c60c-4943-bc52-e01cc39c679a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at -2.9 -2.25 270)
@@ -3864,7 +3854,7 @@
 		(start 116 108)
 		(end 100 108)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3874,7 +3864,7 @@
 		(start 116 108)
 		(end 116 92)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3884,7 +3874,7 @@
 		(start 100 92)
 		(end 100 108)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -3894,7 +3884,7 @@
 		(start 100 92)
 		(end 116 92)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
