@@ -13263,6 +13263,123 @@
 			)
 		)
 	)
+	(gr_text "CR2032 *2"
+		(at 74 103 0)
+		(layer "B.Mask")
+		(uuid "11da0fb5-9e41-4cb8-80da-704409b0a7ff")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "ATtinyX04"
+		(at 105.6 122.6 0)
+		(layer "B.Mask")
+		(uuid "1a1ab173-f152-4d95-b681-6540da14d59a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "100u"
+		(at 91.6 125.7 0)
+		(layer "B.Mask")
+		(uuid "3faf1615-eae2-44c5-868f-734429a12597")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "BC-2001"
+		(at 87 111 -0)
+		(layer "B.Mask")
+		(uuid "4044d626-fa95-46cd-bd96-e579c097a3f8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "BC-2001"
+		(at 113 111 -0)
+		(layer "B.Mask")
+		(uuid "bcd605d4-7426-449d-8da7-640295a33116")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 96 134 0)
+		(layer "B.Mask")
+		(uuid "c3e0faad-fc84-424a-ad15-974c53e3c293")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "4u7"
+		(at 93.6 124.9 0)
+		(layer "B.Mask")
+		(uuid "c5a6ba59-f532-4696-a185-49055f2f5a56")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "UPDI"
+		(at 104 134 0)
+		(layer "B.Mask")
+		(uuid "d85d9459-41b7-4228-916b-1923079ed79b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "100R *6"
+		(at 107.5 126 0)
+		(layer "B.Mask")
+		(uuid "eb99803c-2d80-4432-9fd0-9b6372deca66")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "card 30led"
 		(at 100 110 0)
 		(layer "B.Mask")
@@ -13272,6 +13389,30 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "O"
+		(at 92 128 0)
+		(layer "B.SilkS")
+		(uuid "aa7d8c50-7143-4226-9091-ab754b3bb703")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "I"
+		(at 81 128 0)
+		(layer "B.SilkS")
+		(uuid "e098022e-27fa-46a4-af7d-e8b670ee9b2b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
 			)
 			(justify mirror)
 		)
