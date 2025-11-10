@@ -4943,7 +4943,7 @@
 			)
 		)
 	)
-	(gr_text "10k"
+	(gr_text "INR"
 		(at 96.4 96.2 270)
 		(layer "F.Mask")
 		(uuid "433a9f95-ad3e-4ea7-86f4-0c6bbcb4cadb")
@@ -4967,7 +4967,7 @@
 			)
 		)
 	)
-	(gr_text "10k"
+	(gr_text "INL"
 		(at 103.6 96.2 90)
 		(layer "F.Mask")
 		(uuid "6f9fe542-8aa5-4e91-8f11-7178d3048062")

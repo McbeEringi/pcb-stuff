@@ -3041,7 +3041,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "INL"
 			(at 166.37 87.63 90)
 			(effects
 				(font
@@ -3175,7 +3175,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "INR"
 			(at 166.37 97.79 90)
 			(effects
 				(font
