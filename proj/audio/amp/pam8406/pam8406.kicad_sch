@@ -1612,6 +1612,28 @@
 		)
 		(uuid "eafd5ab5-8ac8-4578-a838-ac3b6437036a")
 	)
+	(global_label "INR"
+		(shape input)
+		(at 158.75 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d1e357e-4aee-48de-a91e-d679dcb740d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.5595 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MODE"
 		(shape output)
 		(at 142.24 106.68 0)
@@ -1656,9 +1678,9 @@
 			)
 		)
 	)
-	(global_label "INR"
+	(global_label "INL"
 		(shape input)
-		(at 163.83 95.25 180)
+		(at 158.75 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1666,9 +1688,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6b2ea80f-4d76-4a8b-bd93-18a124533edf")
+		(uuid "7dbbcc79-8390-4797-9ba7-4e783aaf190e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6395 95.25 0)
+			(at 152.8014 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,28 +1740,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INL"
-		(shape input)
-		(at 163.83 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6c168c0-f6e3-4496-ba95-47ee273b8113")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8814 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2484,7 +2484,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 95.25 90)
+		(at 161.29 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2493,7 +2493,7 @@
 		(dnp no)
 		(uuid "52f9c7db-de03-4179-afca-42fd7f9f8ee7")
 		(property "Reference" "C2"
-			(at 166.3763 101.6 90)
+			(at 161.2963 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2501,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 166.3763 99.06 90)
+			(at 161.2963 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2509,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 95.25 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 95.25 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2527,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 95.25 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,6 +3024,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 166.37 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a74f3dc-ef7e-46bf-bc71-8ac17c605fdf")
+		(property "Reference" "R2"
+			(at 166.37 85.09 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4992d87-7924-480c-bff6-2fc93017eed9")
+		)
+		(pin "1"
+			(uuid "902f9c79-2212-421f-bc1e-d1091fbf9162")
+		)
+		(instances
+			(project ""
+				(path "/9dee15c9-d268-4074-a293-5cd651fc54d5"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 115.57 0)
 		(unit 1)
@@ -3084,6 +3152,74 @@
 			(project "pam8406"
 				(path "/9dee15c9-d268-4074-a293-5cd651fc54d5"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 166.37 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4575bef-af02-4327-85d8-abc117949277")
+		(property "Reference" "R3"
+			(at 166.37 100.33 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7c45094-c1d7-450c-8be1-6f36d364073b")
+		)
+		(pin "1"
+			(uuid "4414cdc8-50e5-49a1-bf65-6bf102fe4150")
+		)
+		(instances
+			(project "pam8406"
+				(path "/9dee15c9-d268-4074-a293-5cd651fc54d5"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3404,7 +3540,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 90.17 90)
+		(at 161.29 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3413,7 +3549,7 @@
 		(fields_autoplaced yes)
 		(uuid "e293a974-5fbf-4d7d-bbca-3c6e984867e2")
 		(property "Reference" "C1"
-			(at 166.3763 83.82 90)
+			(at 161.2963 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3557,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 166.3763 86.36 90)
+			(at 161.2963 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3565,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 90.17 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 90.17 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3583,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 90.17 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
