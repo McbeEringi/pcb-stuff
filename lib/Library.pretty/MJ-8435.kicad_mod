@@ -56,7 +56,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -3 1)
-		(end -3 3)
+		(end -3 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,7 +65,7 @@
 		(uuid "d3fc0dfd-2fcd-4f14-8a05-5293dabce787")
 	)
 	(fp_line
-		(start -3 6)
+		(start -3 7)
 		(end -3 10)
 		(stroke
 			(width 0.1)
@@ -85,7 +85,7 @@
 		(uuid "8c6e74dc-b6e7-463b-9a71-0e69e11d78e3")
 	)
 	(fp_line
-		(start 3 3)
+		(start 3 4)
 		(end 3 1)
 		(stroke
 			(width 0.1)
@@ -96,7 +96,7 @@
 	)
 	(fp_line
 		(start 3 10)
-		(end 3 6)
+		(end 3 7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -158,7 +158,7 @@
 		(uuid "03ef4c55-3fb5-49ae-a55d-599d263d336e")
 	)
 	(pad "T" thru_hole roundrect
-		(at -2.75 4.5)
+		(at -2.75 5.5)
 		(size 1.8 2.1)
 		(drill oval 1 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -168,7 +168,7 @@
 		(uuid "1637cab5-301a-4083-b440-f57c039c820d")
 	)
 	(pad "T" thru_hole roundrect
-		(at 2.75 4.5)
+		(at 2.75 5.5)
 		(size 1.8 2.1)
 		(drill oval 1 1.3)
 		(layers "*.Cu" "*.Mask")
