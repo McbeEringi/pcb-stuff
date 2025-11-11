@@ -3927,10 +3927,23 @@
 			)
 		)
 	)
-	(gr_text "BSS138\n*2"
-		(at 105.6 94 270)
+	(gr_text "NC/\nBSS138"
+		(at 105.8 95.4 270)
 		(layer "B.Mask")
 		(uuid "028faede-52fd-47fe-8cd1-206081c74ce8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "CH340K"
+		(at 109.8 102.8 0)
+		(layer "B.Mask")
+		(uuid "0d48ef57-b600-4d1c-a4e4-3ec08734d2cb")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -3940,10 +3953,10 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CH340K"
-		(at 109.8 102.8 0)
+	(gr_text "*2"
+		(at 104.6 93 270)
 		(layer "B.Mask")
-		(uuid "0d48ef57-b600-4d1c-a4e4-3ec08734d2cb")
+		(uuid "0e1c27bf-1d24-4a3f-b849-4269b20af073")
 		(effects
 			(font
 				(size 0.5 0.5)
