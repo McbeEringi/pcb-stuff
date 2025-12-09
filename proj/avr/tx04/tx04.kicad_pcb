@@ -5093,7 +5093,7 @@
 			)
 		)
 	)
-	(gr_text "A4"
+	(gr_text "B2"
 		(at 115.24 105.08 90)
 		(layer "F.SilkS")
 		(uuid "90840526-1c6e-45a3-b883-6720b61664ec")
