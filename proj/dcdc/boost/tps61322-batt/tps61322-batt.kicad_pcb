@@ -3076,14 +3076,14 @@
 			)
 		)
 	)
-	(gr_text "Boost DCDC"
-		(at 80.4 105 0)
+	(gr_text "DCDC Boost\nTPS61322 BATT"
+		(at 80 104.8 0)
 		(layer "F.Mask")
 		(uuid "6d662497-007c-4563-abec-c7203d8bb255")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.5 0.5)
+				(thickness 0.1)
 				(bold yes)
 			)
 		)
