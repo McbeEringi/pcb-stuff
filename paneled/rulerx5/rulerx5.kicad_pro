@@ -463,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "usb-c-dip.kicad_pro",
+    "filename": "rulerx5.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -499,10 +499,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rulerx5.stl",
       "svg": "",
       "vrml": ""
     },
