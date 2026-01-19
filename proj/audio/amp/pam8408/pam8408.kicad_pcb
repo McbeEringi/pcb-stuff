@@ -1419,7 +1419,7 @@
 			(net 5 "INL")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "d4c1d80e-abd1-40c7-916a-3cdfdc9ac124")
+			(uuid "cac26b7c-7eed-4b59-8049-bc9840128eb7")
 		)
 		(embedded_fonts no)
 	)
