@@ -5240,12 +5240,6 @@
 		(uuid "5170e2da-f3b1-426b-b966-145cf68f6e26")
 	)
 	(junction
-		(at 161.29 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91098d7e-2e14-4175-a027-da8697be2d96")
-	)
-	(junction
 		(at 149.86 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5276,10 +5270,16 @@
 		(uuid "c180dc5a-743d-4ca9-bfc4-2998609a7937")
 	)
 	(junction
-		(at 191.77 25.4)
+		(at 186.69 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43a4ae8-56d2-47d3-9835-7f1edc9525bc")
+	)
+	(junction
+		(at 161.29 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67ad3ef-293a-44a7-a722-bb34d14d786d")
 	)
 	(junction
 		(at 143.51 140.97)
@@ -5341,13 +5341,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 25.4) (xy 161.29 34.29)
+			(xy 161.29 25.4) (xy 161.29 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "004dea60-443c-4f79-8ec4-9b80bd05b442")
+	)
+	(wire
+		(pts
+			(xy 171.45 35.56) (xy 172.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079aa79c-6441-40c5-ac7c-2fd09f589bc5")
 	)
 	(wire
 		(pts
@@ -5358,16 +5368,6 @@
 			(type default)
 		)
 		(uuid "134badf0-7a5c-4788-96d9-686edb11123d")
-	)
-	(wire
-		(pts
-			(xy 161.29 39.37) (xy 161.29 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "154a075f-50ca-4403-b264-5507d84abfe9")
 	)
 	(wire
 		(pts
@@ -5398,16 +5398,6 @@
 			(type default)
 		)
 		(uuid "35753604-ab6a-436f-858f-8bf99c7113fb")
-	)
-	(wire
-		(pts
-			(xy 176.53 36.83) (xy 177.8 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6d7406-8477-44ed-b521-6c6e2d774650")
 	)
 	(wire
 		(pts
@@ -5461,7 +5451,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 182.88 43.18)
+			(xy 161.29 43.18) (xy 177.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5491,13 +5481,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 25.4) (xy 172.72 25.4)
+			(xy 161.29 25.4) (xy 167.64 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72a7f69f-0aeb-4bf6-8b33-f94ecff88eb1")
+		(uuid "6e6c7fd7-855c-434b-9829-6a7856a8f46f")
 	)
 	(wire
 		(pts
@@ -5581,7 +5571,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 43.18) (xy 190.5 43.18)
+			(xy 186.69 43.18) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5608,16 +5598,6 @@
 			(type default)
 		)
 		(uuid "9fd14a70-b52a-4494-b1fb-7f953b913ce1")
-	)
-	(wire
-		(pts
-			(xy 135.89 25.4) (xy 140.97 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17ab882-e543-4ac2-a7ca-3809230a043e")
 	)
 	(wire
 		(pts
@@ -5661,7 +5641,17 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 25.4) (xy 191.77 43.18)
+			(xy 172.72 35.56) (xy 172.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e55090-ce51-48b8-be47-a714866ca20a")
+	)
+	(wire
+		(pts
+			(xy 186.69 25.4) (xy 186.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +5661,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 25.4) (xy 190.5 25.4)
+			(xy 186.69 25.4) (xy 185.42 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5681,13 +5671,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 36.83) (xy 177.8 33.02)
+			(xy 135.89 25.4) (xy 140.97 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d21aa937-c7e0-4ba9-9e13-240f6393296f")
+		(uuid "d4a18b62-f13c-4810-a922-a6cc6cbc04f1")
 	)
 	(wire
 		(pts
@@ -5697,7 +5687,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d4a18b62-f13c-4810-a922-a6cc6cbc04f1")
+		(uuid "d4d650b8-0c23-46fb-a9bb-9d213a003c69")
 	)
 	(wire
 		(pts
@@ -6838,7 +6828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02386621-2229-46c8-8ebe-8db73cc5a0f4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -6889,7 +6879,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6905,7 +6895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cdfd3c6-9b25-4d93-9409-ea9db093d3f6")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 109.22 52.0699 0)
 			(effects
 				(font
@@ -6959,7 +6949,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6967,7 +6957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 48.26 0)
+		(at 181.61 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6975,8 +6965,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10bf74d1-cb2d-4c07-8b45-9496b9d28d1f")
-		(property "Reference" "#PWR040"
-			(at 186.69 54.61 0)
+		(property "Reference" "#PWR042"
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +6975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 53.34 0)
+			(at 181.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +6983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 48.26 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +6992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 48.26 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +7001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 48.26 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7015,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7111,7 +7101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a0dec9-f247-4244-b0aa-cfb36bea9909")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 101.6 109.22 0)
 			(effects
 				(font
@@ -7161,7 +7151,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7177,7 +7167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19a26578-f9ed-4768-b147-f30f49fb5e24")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 151.13 187.96 0)
 			(effects
 				(font
@@ -7227,7 +7217,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc8418e-5cb9-404f-a50c-676125b68ea7")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 162.5663 127 90)
 			(effects
 				(font
@@ -7295,7 +7285,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7311,7 +7301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d11df4c-2012-423e-8ec3-86cca735b847")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 194.31 133.35 0)
 			(effects
 				(font
@@ -7361,7 +7351,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d69f019-fb3d-4481-b736-6d3e256a29e0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -7516,74 +7506,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 173.99 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ea21368-ca04-47a7-ad28-fc1dcab55f37")
-		(property "Reference" "R17"
-			(at 173.99 31.75 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 173.99 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.99 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 173.99 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e4edbf3-ac49-4117-924d-a16cf726da49")
-		)
-		(pin "1"
-			(uuid "e3444d51-1c57-4b3f-a8b7-389e50e5ab73")
-		)
-		(instances
-			(project "musicbox"
-				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R17")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7581,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 191.77 25.4 270)
+		(at 186.69 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7666,8 +7589,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228e0630-c9b8-4fa1-ab22-014051fd6c0e")
-		(property "Reference" "#PWR044"
-			(at 187.96 25.4 0)
+		(property "Reference" "#PWR043"
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +7599,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 195.58 25.3999 90)
+			(at 190.5 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 25.4 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 25.4 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 191.77 25.4 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +7640,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7732,7 +7655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22dabf18-ab54-4bf6-9648-52ecc95fc4f7")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 193.04 154.9335 0)
 			(effects
 				(font
@@ -7786,7 +7709,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7802,7 +7725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "248f92dd-a73b-4a6e-8da8-8ae76ab84d72")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 81.28 140.9635 0)
 			(effects
 				(font
@@ -7856,7 +7779,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8004,7 +7927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e04a1e-9cab-4f55-84b7-2a2318923cdc")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 203.2 153.67 0)
 			(effects
 				(font
@@ -8054,7 +7977,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8207,7 +8130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295f0876-78ac-4eb1-9e24-45855bedb985")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 247.65 23.495 0)
 			(effects
 				(font
@@ -8257,7 +8180,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8273,7 +8196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e697b4c-1c2f-42cf-b63a-1fb22a24a4ff")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 158.75 172.7199 0)
 			(effects
 				(font
@@ -8327,7 +8250,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8343,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30df4045-096a-443e-bf49-ee3fc2a794e3")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR032"
 			(at 124.46 25.4 0)
 			(effects
 				(font
@@ -8394,7 +8317,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR058")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8409,7 +8332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30e14f64-8a92-42d8-b6ad-1a8747fea342")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 270.51 137.1599 0)
 			(effects
 				(font
@@ -8466,7 +8389,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8548,7 +8471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "384f0120-2312-4a47-a809-19c2c2ded250")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -8598,7 +8521,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8680,7 +8603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3969d9a0-5d34-4700-b4ae-fcf82650db1e")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 281.94 36.83 0)
 			(effects
 				(font
@@ -8731,7 +8654,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9064,7 +8987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cab998f-eac9-4a00-b0dc-715cc044cf68")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 281.94 26.67 0)
 			(effects
 				(font
@@ -9115,7 +9038,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9131,7 +9054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb93796-d00b-4c01-909e-8d42ed03bfff")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 191.77 130.8099 0)
 			(effects
 				(font
@@ -9185,7 +9108,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9267,7 +9190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4808ef00-5266-4aef-8f51-f4f4ddecc5cb")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 130.048 133.858 90)
 			(effects
 				(font
@@ -9333,7 +9256,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9415,7 +9338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49b27b7d-118c-4cb0-8522-6558078b761f")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 105.41 38.0935 0)
 			(effects
 				(font
@@ -9469,7 +9392,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9546,6 +9469,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 125.73 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ae7213e-eec7-49b5-9403-a26499922f01")
+		(property "Reference" "TP1"
+			(at 72.39 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa5e5d2-434c-4760-885d-992e0a338c05")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 144.78 0)
 		(unit 1)
@@ -9555,7 +9545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dacfebf-9062-474b-a475-9feb64eea0d9")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 83.82 151.13 0)
 			(effects
 				(font
@@ -9605,7 +9595,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9621,7 +9611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "501a1d68-12a7-4e8b-9700-7e44223b1a3f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 121.92 52.07 0)
 			(effects
 				(font
@@ -9672,7 +9662,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9688,7 +9678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53204b94-01ed-4838-a6b0-a832d476349d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 190.5 157.48 0)
 			(effects
 				(font
@@ -9738,7 +9728,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9754,7 +9744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58b39c99-9b72-45c7-979c-594cbd855dd0")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 101.6 191.77 0)
 			(effects
 				(font
@@ -9804,7 +9794,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10179,7 +10169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc272fe-f4ee-44e2-a22b-0e3edc2740de")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR061"
 			(at 269.24 151.13 0)
 			(effects
 				(font
@@ -10229,7 +10219,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR032")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10237,7 +10227,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 177.8 27.94 270)
+		(at 172.72 27.94 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10246,7 +10236,7 @@
 		(dnp no)
 		(uuid "603a6a8b-4496-4f16-aa9e-8a52fadab8dd")
 		(property "Reference" "Q1"
-			(at 177.8 19.05 90)
+			(at 172.72 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10244,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 177.8 21.59 90)
+			(at 172.72 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +10252,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 175.895 22.86 0)
+			(at 170.815 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10263,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 173.99 22.86 0)
+			(at 168.91 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10273,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 177.8 27.94 0)
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6afa4680-f10f-48ec-98d5-ca7c0a372285")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 142.24 187.96 0)
 			(effects
 				(font
@@ -10439,7 +10429,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10525,7 +10515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ddec3da-3e54-40cf-a96f-d8f045a5b874")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 281.94 46.99 0)
 			(effects
 				(font
@@ -10576,7 +10566,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10592,7 +10582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e9500bd-fae7-45e2-a6a5-4ec3c79838b3")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 152.4 135.8899 0)
 			(effects
 				(font
@@ -10601,7 +10591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NC(2k2)"
+		(property "Value" "NC(1k)"
 			(at 152.4 138.4299 0)
 			(effects
 				(font
@@ -10646,7 +10636,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10796,7 +10786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755d4050-ac25-4ea2-953b-1e67b188ab6c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 186.69 157.48 0)
 			(effects
 				(font
@@ -10846,7 +10836,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10862,7 +10852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78c7c429-4070-4708-aa41-b7566953c278")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 200.66 143.5035 0)
 			(effects
 				(font
@@ -10916,7 +10906,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10924,7 +10914,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 166.37 36.83 0)
+		(at 166.37 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10933,7 +10923,7 @@
 		(dnp no)
 		(uuid "7a267c6b-723e-4bdc-a3ac-45293c7a38a5")
 		(property "Reference" "SW3"
-			(at 166.37 27.94 0)
+			(at 166.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10931,7 @@
 			)
 		)
 		(property "Value" "POW"
-			(at 166.37 30.48 0)
+			(at 166.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +10939,7 @@
 			)
 		)
 		(property "Footprint" "Library:IS-1245T-G"
-			(at 166.37 36.83 0)
+			(at 166.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +10948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 44.45 0)
+			(at 166.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +10957,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 166.37 36.83 0)
+			(at 166.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +10993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b9bbd20-7b2f-4eab-bfda-a8767dc5dafb")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 87.63 22.86 0)
 			(effects
 				(font
@@ -11054,7 +11044,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11070,7 +11060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bfd35ff-7905-4c82-a376-62b98aa38044")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -11120,7 +11110,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11136,7 +11126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e4415ea-1ed5-4acc-9b8a-4a6aa6cff745")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 186.69 165.1 0)
 			(effects
 				(font
@@ -11186,7 +11176,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11281,7 +11271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88a5c9e2-4ee9-4957-bdcf-a6f2fdecb488")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -11332,7 +11322,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11348,7 +11338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "898c3c5f-f112-4852-8e96-29c772fb1abf")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 128.27 148.59 90)
 			(effects
 				(font
@@ -11400,7 +11390,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11408,7 +11398,7 @@
 	)
 	(symbol
 		(lib_id "Library:CH213K")
-		(at 186.69 25.4 180)
+		(at 181.61 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11416,7 +11406,7 @@
 		(dnp no)
 		(uuid "89fd891b-13e4-44fc-ada8-613adb8b16c8")
 		(property "Reference" "U7"
-			(at 186.69 33.02 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11424,7 +11414,7 @@
 			)
 		)
 		(property "Value" "CH213K"
-			(at 186.69 30.48 0)
+			(at 181.61 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11432,7 +11422,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 186.69 25.4 0)
+			(at 181.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,7 +11431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 25.4 0)
+			(at 181.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +11440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 25.4 0)
+			(at 181.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11534,7 @@
 	)
 	(symbol
 		(lib_id "Library:CH213K")
-		(at 186.69 43.18 0)
+		(at 181.61 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11552,8 +11542,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ab4cc72-887e-4c3a-9da1-d11ff759f026")
-		(property "Reference" "U6"
-			(at 186.69 35.56 0)
+		(property "Reference" "U8"
+			(at 181.61 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +11551,7 @@
 			)
 		)
 		(property "Value" "CH213K"
-			(at 186.69 38.1 0)
+			(at 181.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11559,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 186.69 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +11568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11587,7 +11577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 43.18 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11607,7 +11597,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11690,7 +11680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c925177-653e-493c-99ec-bffa57568b1a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 62.23 41.91 0)
 			(effects
 				(font
@@ -11740,7 +11730,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11757,7 +11747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9fe97a-9520-42bf-a91e-aa6e24563776")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 102.87 48.26 0)
 			(effects
 				(font
@@ -11807,7 +11797,74 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR023")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 128.27 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d591f5d-c07d-4f22-be92-22a5dc7335a1")
+		(property "Reference" "TP2"
+			(at 72.39 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPDI"
+			(at 72.39 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93d9e82c-4c88-4904-a5b5-6347dbb0e705")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11891,7 +11948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90b72dab-ca49-4b5f-8c1f-cb0de94b8891")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 162.5663 142.24 90)
 			(effects
 				(font
@@ -11943,7 +12000,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12070,7 +12127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96fdd5f0-db8d-4f6c-b5ff-60c43f0f0efa")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR036"
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -12120,7 +12177,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR051")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12272,7 +12329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d8109b0-45cb-4e43-bab4-d0fa0b111a5a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 86.36 60.96 0)
 			(effects
 				(font
@@ -12322,7 +12379,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12337,7 +12394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d826934-98f1-4ae5-b390-e2f2583d7075")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 128.27 133.35 90)
 			(effects
 				(font
@@ -12389,7 +12446,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12405,7 +12462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db589ce-3a8b-4b6b-9d9b-7606bb021a31")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 83.82 143.51 0)
 			(effects
 				(font
@@ -12455,7 +12512,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12472,7 +12529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef70b9d-58d1-498b-b34b-95e9f21d2882")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 189.23 127 0)
 			(effects
 				(font
@@ -12522,7 +12579,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12538,7 +12595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0db6331-9815-49dc-91ce-b1c655c56ce6")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 152.4 143.5099 0)
 			(effects
 				(font
@@ -12547,7 +12604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NC(2k2)"
+		(property "Value" "NC(1k)"
 			(at 152.4 146.0499 0)
 			(effects
 				(font
@@ -12592,7 +12649,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12608,7 +12665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2f78d59-e77b-4662-88f7-9ae33e63f4a2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 156.21 187.96 0)
 			(effects
 				(font
@@ -12658,7 +12715,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12781,7 +12838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a542cdd5-cf47-4372-989d-e1ec33c1378a")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 184.15 154.9335 0)
 			(effects
 				(font
@@ -12835,7 +12892,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12851,7 +12908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c34bb9-ff54-4520-91cd-49e367efbc45")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 31.75 156.21 0)
 			(effects
 				(font
@@ -12901,7 +12958,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -13183,7 +13240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b29de647-6626-4bcc-a4b8-beaa28f0ec69")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 191.77 116.8335 0)
 			(effects
 				(font
@@ -13237,7 +13294,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13318,7 +13375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b692fe10-bf5e-4260-97a2-442a5bae0951")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 281.94 57.15 0)
 			(effects
 				(font
@@ -13369,7 +13426,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13385,7 +13442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f363b3-b1a0-4107-8dce-58d023235744")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -13435,7 +13492,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13451,7 +13508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8bfcc58-41a0-4bae-8a0d-76b3c3544cb6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -13501,7 +13558,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13631,7 +13688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c022ed36-cfd7-4b16-b3d8-184d4b59eacc")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 190.5 165.1 0)
 			(effects
 				(font
@@ -13681,7 +13738,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13754,6 +13811,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c70e14a4-e057-4a22-ae55-7fbb72bfe640")
+		(property "Reference" "R15"
+			(at 158.75 39.3699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 158.75 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d975e10-a10a-42f8-9d37-97cae4e87e0a")
+		)
+		(pin "2"
+			(uuid "20f113cb-8842-4374-a181-fc796510a4ff")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 257.81 25.4 180)
 		(unit 1)
@@ -13763,7 +13890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b0c3f7-d0c0-43a8-b6a4-ed0f588201d9")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG04"
 			(at 257.81 27.305 0)
 			(effects
 				(font
@@ -13813,7 +13940,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#FLG05")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -13897,7 +14024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca91094d-fdde-4aa1-8a60-b30c2e6d09d1")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -13947,7 +14074,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14039,7 +14166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfc93152-dc90-47e7-b7c3-7b29efd250f4")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 269.24 127 90)
 			(effects
 				(font
@@ -14090,7 +14217,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14176,7 +14303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0b6ba80-1935-48db-be3c-a37f1565a3eb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 83.82 125.73 0)
 			(effects
 				(font
@@ -14227,7 +14354,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR021")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14243,7 +14370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0e8b947-5abb-4bc1-bbaf-aeead001f72c")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 158.75 44.4499 0)
 			(effects
 				(font
@@ -14297,7 +14424,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14313,7 +14440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e6a33b-3c70-4205-8b1a-9ae262c6da15")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 237.49 27.305 0)
 			(effects
 				(font
@@ -14363,7 +14490,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -14444,7 +14571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7af2353-c11d-47bb-a252-be57f393e955")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 247.65 31.75 0)
 			(effects
 				(font
@@ -14494,7 +14621,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14510,7 +14637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e4a231-d667-4ffc-b9f0-0c7333440d03")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -14560,7 +14687,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14647,7 +14774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3dc384c-6ef7-43af-8d8a-2a3a2efb37be")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -14697,7 +14824,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14713,7 +14840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e530ba99-4088-4cf2-9b10-2883e3eda9da")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 43.18 116.84 0)
 			(effects
 				(font
@@ -14764,7 +14891,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14915,7 +15042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b83726-4af5-4e7c-a99a-986c6121e582")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -14966,7 +15093,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14982,7 +15109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea79c2a4-ff98-4546-b67c-9cab00b0c2a5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -15033,7 +15160,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15049,7 +15176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead3db5b-2cf8-4cad-b886-afcc119df134")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 101.6 153.67 0)
 			(effects
 				(font
@@ -15099,7 +15226,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15116,7 +15243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edabbbbc-4636-4d66-93f7-d3860e682274")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 62.23 34.29 0)
 			(effects
 				(font
@@ -15166,77 +15293,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 72.39 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef506400-263b-4054-a80a-e7b6aaebad2b")
-		(property "Reference" "J2"
-			(at 71.12 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UPDI"
-			(at 71.12 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f575e2ee-da85-4358-9a9e-af63e2009083")
-		)
-		(pin "2"
-			(uuid "b5d70f50-9376-4db6-b91a-389f341aeb6e")
-		)
-		(instances
-			(project "musicbox"
-				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "J2")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15251,7 +15308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f560e77c-2e16-4f07-b913-514067ae39f7")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 269.24 121.92 90)
 			(effects
 				(font
@@ -15302,7 +15359,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -15376,7 +15433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 20.32 0)
+		(at 181.61 20.32 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15386,7 +15443,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9ea164e-0400-441a-8a2b-9ac7df4206d5")
 		(property "Reference" "#PWR041"
-			(at 186.69 13.97 0)
+			(at 181.61 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15395,7 +15452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 15.24 0)
+			(at 181.61 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15403,7 +15460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 20.32 0)
+			(at 181.61 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,7 +15469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 20.32 0)
+			(at 181.61 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15421,7 +15478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 20.32 0)
+			(at 181.61 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15451,7 +15508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1df17a-54f4-4be3-bbfe-f11a63baef67")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 160.02 43.18 0)
 			(effects
 				(font
@@ -15502,7 +15559,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

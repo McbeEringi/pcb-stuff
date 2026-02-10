@@ -1,4 +1,4 @@
-(footprint "alps-skrg"
+(footprint "alps-skr[gp]"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "alps-skrg"
+	(property "Value" "alps-skr[gp]"
 		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -54,6 +54,26 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -1.5 -1)
+		(end -1.5 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9e698765-ff3f-41fa-93a3-ee4d0cdf3741")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef80fe18-68fc-40df-b1c6-31acf2a7c37c")
+	)
 	(fp_arc
 		(start -3.020613 -0.697064)
 		(mid -1.929909 -2.425994)
@@ -128,6 +148,34 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "34616176-cd06-4f35-a1ac-a45c6841c568")
+	)
+	(pad "1" smd rect
+		(at -1.075 -2.075 270)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8e3d72dd-a668-40e3-aea5-f6807f4b3009")
+	)
+	(pad "1" smd rect
+		(at -1.075 2.075 270)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "932edb50-db0d-4994-99bc-e99c168264ee")
+	)
+	(pad "2" smd rect
+		(at 1.075 -2.075 270)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "dd9aedd6-b845-47b2-b11c-373796358d59")
+	)
+	(pad "2" smd rect
+		(at 1.075 2.075 270)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2cde4c37-5595-497c-968d-01c6738c42ef")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
