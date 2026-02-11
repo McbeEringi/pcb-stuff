@@ -326,7 +326,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AQ0802A-RN-GBW"
+	(symbol "AQM0802A-RN-GBW"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -338,7 +338,7 @@
 				)
 			)
 		)
-		(property "Value" "AQ0802A-RN-GBW"
+		(property "Value" "AQM0802A-RN-GBW"
 			(at 0 0 0)
 			(effects
 				(font
@@ -373,7 +373,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AQ0802A-RN-GBW_1_1"
+		(symbol "AQM0802A-RN-GBW_1_1"
 			(rectangle
 				(start -10.16 8.89)
 				(end 10.16 -8.89)
@@ -4149,5 +4149,51 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "AP7375"
+		(extends "AP7333")
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7375"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://akizukidenshi.com/catalog/g/g117597/"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 )
