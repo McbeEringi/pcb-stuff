@@ -13314,18 +13314,6 @@
 			)
 		)
 	)
-	(gr_text "10k"
-		(at 128.4 80.2 0)
-		(layer "F.Mask")
-		(uuid "9fb61fb7-f841-42c1-9db2-750b41e2a8ce")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-		)
-	)
 	(gr_text "AO3401A"
 		(at 82 97.4 0)
 		(layer "F.Mask")

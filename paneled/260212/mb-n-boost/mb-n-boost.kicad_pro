@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "n_scale_pu.kicad_pro",
+    "filename": "mb-n-boost.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -512,10 +512,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "musicbox.glb",
       "svg": "",
       "vrml": ""
     },
@@ -636,7 +636,7 @@
   },
   "sheets": [
     [
-      "5f2957d3-4882-4c70-8696-2d5f1c350892",
+      "450caee3-b68b-423d-a829-37eac74bf274",
       "Root"
     ]
   ],
