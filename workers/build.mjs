@@ -12,7 +12,7 @@ Bun.write(
 				x.match(/(?<user>.+?)@(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
 			).groups)(await Bun.$`git remote get-url origin`.text()),
 			branch='HEAD',//(await Bun.$`git branch --contains`.text()).slice(2,-1),
-			f([...new Bun.Glob(e.getAttribute('glob')).scanSync('.')].reduce((a,w)=>(
+			f([...new Bun.Glob(e.getAttribute('glob')).scanSync('./root')].reduce((a,w)=>(
 				w.split(sep).slice(0,-e.getAttribute('pop')||0).reduce((a,x,i,w)=>(
 					++i==w.length?a[x]=`<a href="https://${host}/${auth}/${repo}/tree/${branch}/${w.join('/')}">${x}</a>`:a[x]??={}
 				),a),
