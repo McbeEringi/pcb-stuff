@@ -6245,7 +6245,7 @@
 	)
 	(global_label "AMP1"
 		(shape output)
-		(at 165.1 133.35 0)
+		(at 170.18 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6255,7 +6255,7 @@
 		)
 		(uuid "693d0ba7-e46b-4528-997f-8ae61c9ceb6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1047 133.35 0)
+			(at 178.1847 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6751,7 @@
 	)
 	(global_label "AMP0"
 		(shape output)
-		(at 165.1 148.59 0)
+		(at 170.18 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6761,7 +6761,7 @@
 		)
 		(uuid "f3ada895-69e5-4c20-a382-d2094a0e8652")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1047 148.59 0)
+			(at 178.1847 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,7 +8958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb93796-d00b-4c01-909e-8d42ed03bfff")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 191.77 130.8099 0)
 			(effects
 				(font
@@ -9012,7 +9012,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9634,6 +9634,73 @@
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "550b951d-fe61-4310-b8b8-216710c0f29c")
+		(property "Reference" "R18"
+			(at 167.64 128.27 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 167.64 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6246081b-3f08-45ae-801b-6f581f6230a5")
+		)
+		(pin "1"
+			(uuid "10b2c69e-2105-4e94-ae7b-27e5bf46f326")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -14858,6 +14925,74 @@
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 148.59 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e75d093c-9e45-4a64-b971-3dd27cb036a9")
+		(property "Reference" "R19"
+			(at 167.64 153.67 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 167.64 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f1a6773-74c9-44c7-9002-4fd47059f2a8")
+		)
+		(pin "1"
+			(uuid "9b6deba4-cf89-45af-a2bb-9fd77d6cf285")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "R19")
 					(unit 1)
 				)
 			)
