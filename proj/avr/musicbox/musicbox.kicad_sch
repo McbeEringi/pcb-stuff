@@ -5252,6 +5252,12 @@
 		(uuid "73f68753-3c9d-4236-ba3c-d39c26e5d75e")
 	)
 	(junction
+		(at 69.85 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91361f0e-d0af-41fc-a686-c8633ecf3aef")
+	)
+	(junction
 		(at 149.86 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5420,6 +5426,16 @@
 			(type default)
 		)
 		(uuid "47f87e76-29bf-4a91-87da-5c1afcba8882")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 69.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5a6c88-fa1e-44aa-9d49-545f449185d1")
 	)
 	(wire
 		(pts
@@ -5720,6 +5736,16 @@
 			(type default)
 		)
 		(uuid "cc123666-e984-4423-b92a-7a7e88502963")
+	)
+	(wire
+		(pts
+			(xy 69.85 128.27) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14792ec-7786-4e37-84b2-dfe42433b198")
 	)
 	(wire
 		(pts
@@ -6685,7 +6711,7 @@
 	)
 	(global_label "UPDI"
 		(shape output)
-		(at 77.47 128.27 0)
+		(at 69.85 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6695,7 +6721,7 @@
 		)
 		(uuid "e45e71f8-7568-4b9e-9cd1-af522f82538a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.9305 128.27 0)
+			(at 77.3105 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,6 +8045,73 @@
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 133.35 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "290d5daa-2caa-40ab-a620-ef3661d0575a")
+		(property "Reference" "TP4"
+			(at 64.77 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UPDI"
+			(at 64.77 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45c0d015-1b42-44ff-acb1-6d26798da8e9")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9375,7 +9468,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 125.73 90)
+		(at 69.85 125.73 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9383,8 +9476,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ae7213e-eec7-49b5-9403-a26499922f01")
-		(property "Reference" "TP1"
-			(at 72.39 123.19 90)
+		(property "Reference" "TP2"
+			(at 64.77 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +9486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 125.73 90)
+			(at 64.77 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9495,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 77.47 130.81 0)
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 130.81 0)
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +9513,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 125.73 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +9527,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11632,7 +11725,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 128.27 90)
+		(at 69.85 128.27 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11640,8 +11733,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d591f5d-c07d-4f22-be92-22a5dc7335a1")
-		(property "Reference" "TP2"
-			(at 72.39 128.27 90)
+		(property "Reference" "TP3"
+			(at 64.77 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +11743,7 @@
 			)
 		)
 		(property "Value" "UPDI"
-			(at 72.39 130.81 90)
+			(at 64.77 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +11752,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 77.47 133.35 0)
+			(at 69.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 133.35 0)
+			(at 69.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,7 +11770,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 128.27 0)
+			(at 69.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +11784,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14063,7 +14156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfc93152-dc90-47e7-b7c3-7b29efd250f4")
-		(property "Reference" "TP4"
+		(property "Reference" "TP6"
 			(at 269.24 127 90)
 			(effects
 				(font
@@ -14114,7 +14207,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "TP4")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14192,7 +14285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 125.73 90)
+		(at 69.85 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14200,8 +14293,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0b6ba80-1935-48db-be3c-a37f1565a3eb")
-		(property "Reference" "#PWR015"
-			(at 83.82 125.73 0)
+		(property "Reference" "#PWR014"
+			(at 76.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +14303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 125.7299 90)
+			(at 73.66 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 125.73 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,7 +14321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 125.73 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,7 +14330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 125.73 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14251,7 +14344,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15008,7 +15101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b83726-4af5-4e7c-a99a-986c6121e582")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -15059,7 +15152,74 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR014")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 120.65 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e83f8745-e2eb-4995-88f8-7eb0ce838b08")
+		(property "Reference" "TP1"
+			(at 64.77 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b9fe1b-42a7-4f39-80c7-9cb31f66cf00")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15274,7 +15434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f560e77c-2e16-4f07-b913-514067ae39f7")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 269.24 121.92 90)
 			(effects
 				(font
@@ -15325,7 +15485,7 @@
 		(instances
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
