@@ -145,6 +145,17 @@
 		(uuid "cee6a98b-1849-4eb6-bb9c-2dca863eb2d0")
 	)
 	(fp_rect
+		(start -15.8 -3)
+		(end -15 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bb690104-a82d-40bc-b77c-29262142879a")
+	)
+	(fp_rect
 		(start -15 -6.75)
 		(end 15 12.75)
 		(stroke
@@ -341,6 +352,18 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "e66d2a76-d5b5-4acd-bfbb-9b0137fabcb6")
+	)
+	(fp_text user "BACKLIGHT_LENS"
+		(at -15.4 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "663b068e-f0f5-4655-b1d8-e9ea4463da86")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
