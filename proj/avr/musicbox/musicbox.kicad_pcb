@@ -13306,7 +13306,7 @@
 		(uuid "f6a7ca68-a243-4ee2-a13d-1350efa3d63a")
 	)
 	(gr_text "4u7"
-		(at 88.6 85.8 0)
+		(at 89 88 0)
 		(layer "F.Mask")
 		(uuid "02807153-f371-4f39-9607-11f20f6737c7")
 		(effects
@@ -13318,7 +13318,7 @@
 		)
 	)
 	(gr_text "4u7"
-		(at 88.6 84.2 0)
+		(at 89 84 0)
 		(layer "F.Mask")
 		(uuid "03b9a7f0-b0dd-474b-8bfe-28107fffc6e2")
 		(effects
@@ -13342,7 +13342,7 @@
 		)
 	)
 	(gr_text "BQ25172"
-		(at 93.6 88 0)
+		(at 92.6 89.2 0)
 		(layer "F.Mask")
 		(uuid "1330d5c1-49e1-47d1-91b2-c1e33900daa8")
 		(effects
@@ -13463,6 +13463,18 @@
 			)
 		)
 	)
+	(gr_text "47k"
+		(at 82.4 113.4 0)
+		(layer "F.Mask")
+		(uuid "7f725903-9e00-4783-b2cf-e81979bc84c5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "UPDI"
 		(at 87 98 0)
 		(layer "F.Mask")
@@ -13500,6 +13512,18 @@
 		)
 	)
 	(gr_text "1u"
+		(at 84 111 0)
+		(layer "F.Mask")
+		(uuid "a6e0c8cd-8b43-469c-9a98-109784988252")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "1u"
 		(at 80.8 98.6 0)
 		(layer "F.Mask")
 		(uuid "c5a2834a-874e-483d-9d7e-c43d9a9f4311")
@@ -13524,10 +13548,34 @@
 			(justify right)
 		)
 	)
+	(gr_text "47k"
+		(at 82.4 98.6 0)
+		(layer "F.Mask")
+		(uuid "e489944c-4234-46a8-a5b3-74cea83e4da5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "TNOW\nAVR\nSTAT"
 		(at 106 83 0)
 		(layer "F.Mask")
 		(uuid "e96be0be-33c8-4da6-ab23-4e08c2dd3d79")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "1u"
+		(at 84 101 0)
+		(layer "F.Mask")
+		(uuid "f2ebe7de-df4a-44a7-b99c-57ff856328bc")
 		(effects
 			(font
 				(size 0.5 0.5)
