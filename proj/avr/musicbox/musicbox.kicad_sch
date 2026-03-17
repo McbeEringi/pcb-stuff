@@ -1665,6 +1665,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -5061,7 +5211,7 @@
 		)
 	)
 	(junction
-		(at 190.5 25.4)
+		(at 187.96 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07a302d6-a351-4045-bd0c-2f2ab3908d74")
@@ -5071,12 +5221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f464745-93cd-4841-92c0-78e56a741d0d")
-	)
-	(junction
-		(at 187.96 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "300410e5-247e-497b-86c9-808488463f92")
 	)
 	(junction
 		(at 120.65 25.4)
@@ -5143,12 +5287,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4368841-224f-44ca-8234-57417f12e55e")
-	)
-	(junction
-		(at 187.96 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6900be0-1ed8-438a-8913-3208fab6baa2")
 	)
 	(junction
 		(at 140.97 25.4)
@@ -5241,16 +5379,6 @@
 			(type default)
 		)
 		(uuid "2120182e-7725-41ca-8607-d1de7afec927")
-	)
-	(wire
-		(pts
-			(xy 182.88 50.8) (xy 187.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2afc4364-45fa-46f7-9582-63e16c491c60")
 	)
 	(wire
 		(pts
@@ -5404,16 +5532,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 187.96 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79cd1c48-7af8-40ad-9cb7-225e22b3eec2")
-	)
-	(wire
-		(pts
 			(xy 31.75 116.84) (xy 31.75 119.38)
 		)
 		(stroke
@@ -5474,7 +5592,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 43.18) (xy 187.96 43.18)
+			(xy 187.96 43.18) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5564,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 25.4) (xy 190.5 43.18)
+			(xy 187.96 25.4) (xy 187.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5574,7 +5692,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 25.4) (xy 190.5 25.4)
+			(xy 185.42 25.4) (xy 187.96 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5591,16 +5709,6 @@
 			(type default)
 		)
 		(uuid "cc123666-e984-4423-b92a-7a7e88502963")
-	)
-	(wire
-		(pts
-			(xy 187.96 33.02) (xy 187.96 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce531508-feb2-42bf-b4af-acca7f93e936")
 	)
 	(wire
 		(pts
@@ -5631,16 +5739,6 @@
 			(type default)
 		)
 		(uuid "d4d650b8-0c23-46fb-a9bb-9d213a003c69")
-	)
-	(wire
-		(pts
-			(xy 182.88 33.02) (xy 187.96 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b1db90-56fc-46d9-8a66-f4078fda6fd1")
 	)
 	(wire
 		(pts
@@ -7102,79 +7200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 182.88 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18f2e09e-e24d-40c8-8f87-8a668be8fed8")
-		(property "Reference" "Q2"
-			(at 182.88 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 182.88 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.785 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 186.69 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 182.88 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "00824670-e473-4ca7-9fef-b06c63ae8c27")
-		)
-		(pin "2"
-			(uuid "3ae3fc32-80f6-40c6-8d97-ae2890d85b0b")
-		)
-		(pin "1"
-			(uuid "ad9fff22-04cd-4ff2-8716-f8e40b1bce81")
-		)
-		(instances
-			(project "musicbox"
-				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 162.56 133.35 90)
 		(unit 1)
@@ -7531,8 +7556,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 181.61 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206d00db-6af7-4292-8ed2-2e99f9190e30")
+		(property "Reference" "D4"
+			(at 181.9275 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CUHS20S30"
+			(at 181.9275 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:US2H"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15a73b3f-a447-4fb4-b92a-b672614be7ed")
+		)
+		(pin "1"
+			(uuid "44ef86a6-6bb4-475d-ab3f-e3fb457e3679")
+		)
+		(instances
+			(project ""
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
-		(at 190.5 25.4 270)
+		(at 187.96 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7540,8 +7634,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228e0630-c9b8-4fa1-ab22-014051fd6c0e")
-		(property "Reference" "#PWR044"
-			(at 186.69 25.4 0)
+		(property "Reference" "#PWR042"
+			(at 184.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7644,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 194.31 25.3999 90)
+			(at 191.77 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 25.4 0)
+			(at 187.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 25.4 0)
+			(at 187.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +7671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 190.5 25.4 0)
+			(at 187.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7685,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8129,6 +8223,75 @@
 			(project ""
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 181.61 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29c1a945-e576-493d-95b2-8d0d2b57da5c")
+		(property "Reference" "D5"
+			(at 181.9275 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CUHS20S30"
+			(at 181.9275 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:US2H"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79dfea2a-f145-4a1c-b77f-0bdf0ab0147f")
+		)
+		(pin "1"
+			(uuid "f3aeda39-f96c-4240-8b6a-f47240c7fe0c")
+		)
+		(instances
+			(project "musicbox"
+				(path "/450caee3-b68b-423d-a829-37eac74bf274"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9479,79 +9642,6 @@
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 182.88 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c689592-e7f3-406b-90e7-0df94e38c056")
-		(property "Reference" "Q3"
-			(at 182.88 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 182.88 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.785 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 186.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3d9819c3-3986-4367-99a7-c8a7dc5962a9")
-		)
-		(pin "2"
-			(uuid "da5741f8-29ba-4024-8a16-1a3e9a7dca36")
-		)
-		(pin "1"
-			(uuid "5fe0a2ae-b240-4317-aba4-868f62bfaf6d")
-		)
-		(instances
-			(project "musicbox"
-				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -12264,7 +12354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef70b9d-58d1-498b-b34b-95e9f21d2882")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 189.23 127 0)
 			(effects
 				(font
@@ -12314,7 +12404,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14578,7 +14668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3dc384c-6ef7-43af-8d8a-2a3a2efb37be")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -14628,7 +14718,7 @@
 		(instances
 			(project "musicbox"
 				(path "/450caee3-b68b-423d-a829-37eac74bf274"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
