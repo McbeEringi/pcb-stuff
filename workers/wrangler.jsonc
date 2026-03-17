@@ -12,6 +12,10 @@
 	},
 	"routes": [
 		{
+			"pattern": "pcb.6ca.me",
+			"custom_domain": true
+		},
+		{
 			"pattern": "pcb.mcbeeringi.dev",
 			"custom_domain": true
 		}
