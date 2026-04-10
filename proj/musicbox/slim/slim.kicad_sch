@@ -10810,34 +10810,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9b1d600-77d7-4fdf-8146-32ff0b4735cf")
+			(uuid "d9b1d600-77d7-4fdf-8146-32ff0b4735d0")
 		)
 		(pin "9"
-			(uuid "897f907b-ca1d-448c-9dcd-168bad52bdd7")
+			(uuid "897f907b-ca1d-448c-9dcd-168bad52bdd8")
 		)
 		(pin "5"
-			(uuid "c7181be2-1d69-41c2-936c-ee1efc2d5b32")
+			(uuid "c7181be2-1d69-41c2-936c-ee1efc2d5b33")
 		)
 		(pin "2"
-			(uuid "909897a0-3588-43c4-9b64-a9012562b7bd")
+			(uuid "909897a0-3588-43c4-9b64-a9012562b7be")
 		)
 		(pin "10"
-			(uuid "a8382ecb-1b88-4851-a850-934744fddc0f")
+			(uuid "a8382ecb-1b88-4851-a850-934744fddc10")
 		)
 		(pin "8"
-			(uuid "b1fb820c-ce40-4746-b5d9-c528bd1bf526")
+			(uuid "b1fb820c-ce40-4746-b5d9-c528bd1bf527")
 		)
 		(pin "3"
-			(uuid "1c228f61-4ac4-4489-b113-9853a601bc39")
+			(uuid "1c228f61-4ac4-4489-b113-9853a601bc3a")
 		)
 		(pin "6"
-			(uuid "7d3767a7-4358-41a3-acdf-9d6c2a43bac2")
+			(uuid "7d3767a7-4358-41a3-acdf-9d6c2a43bac3")
 		)
 		(pin "4"
-			(uuid "98b6b9af-8996-4efc-9473-9c09f3a80348")
+			(uuid "98b6b9af-8996-4efc-9473-9c09f3a80349")
 		)
 		(pin "7"
-			(uuid "ded73e88-a49b-4123-9f6e-984cdb51468b")
+			(uuid "ded73e88-a49b-4123-9f6e-984cdb51468c")
 		)
 		(instances
 			(project "slim"
@@ -16973,34 +16973,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9b1d600-77d7-4fdf-8146-32ff0b4735cf")
+			(uuid "d9b1d600-77d7-4fdf-8146-32ff0b4735d1")
 		)
 		(pin "9"
-			(uuid "897f907b-ca1d-448c-9dcd-168bad52bdd7")
+			(uuid "897f907b-ca1d-448c-9dcd-168bad52bdd9")
 		)
 		(pin "5"
-			(uuid "c7181be2-1d69-41c2-936c-ee1efc2d5b32")
+			(uuid "c7181be2-1d69-41c2-936c-ee1efc2d5b34")
 		)
 		(pin "2"
-			(uuid "909897a0-3588-43c4-9b64-a9012562b7bd")
+			(uuid "909897a0-3588-43c4-9b64-a9012562b7bf")
 		)
 		(pin "10"
-			(uuid "a8382ecb-1b88-4851-a850-934744fddc0f")
+			(uuid "a8382ecb-1b88-4851-a850-934744fddc11")
 		)
 		(pin "8"
-			(uuid "b1fb820c-ce40-4746-b5d9-c528bd1bf526")
+			(uuid "b1fb820c-ce40-4746-b5d9-c528bd1bf528")
 		)
 		(pin "3"
-			(uuid "1c228f61-4ac4-4489-b113-9853a601bc39")
+			(uuid "1c228f61-4ac4-4489-b113-9853a601bc3b")
 		)
 		(pin "6"
-			(uuid "7d3767a7-4358-41a3-acdf-9d6c2a43bac2")
+			(uuid "7d3767a7-4358-41a3-acdf-9d6c2a43bac4")
 		)
 		(pin "4"
-			(uuid "98b6b9af-8996-4efc-9473-9c09f3a80348")
+			(uuid "98b6b9af-8996-4efc-9473-9c09f3a8034a")
 		)
 		(pin "7"
-			(uuid "ded73e88-a49b-4123-9f6e-984cdb51468b")
+			(uuid "ded73e88-a49b-4123-9f6e-984cdb51468d")
 		)
 		(instances
 			(project "slim"
