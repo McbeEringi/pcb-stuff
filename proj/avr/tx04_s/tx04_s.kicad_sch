@@ -1521,249 +1521,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:2BZX84Cxx"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2BZX84Cxx"
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 3.81 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "300mW Double Zener Diode, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2BZX84Cxx_0_1"
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 1.27) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 3.81 1.27) (xy 3.81 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2BZX84Cxx_1_1"
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -2.54 1.27) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 3.81 -1.27) (xy 2.54 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LED:WS2812B-2020"
 			(pin_names
 				(offset 0.254)
@@ -2035,34 +1792,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:AP7333"
+		(symbol "Library:BZB784-Cxx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
+			(property "Reference" "D"
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "AP7333"
-				(at 0 3.81 0)
+			(property "Value" "BZB784-Cxx"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at -2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2073,7 +1832,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at -2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2083,8 +1842,8 @@
 					)
 				)
 			)
-			(property "Description" "https://akizukidenshi.com/catalog/g/g111360/"
-				(at 0 0 0)
+			(property "Description" ""
+				(at -2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2094,22 +1853,108 @@
 					)
 				)
 			)
-			(symbol "AP7333_1_1"
-				(rectangle
-					(start -6.35 2.54)
-					(end 6.35 -2.54)
+			(symbol "BZB784-Cxx_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 1.27) (xy -1.27 0.762)
+					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin power_in line
-					(at -8.89 0 0)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 1.27) (xy 3.81 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZB784-Cxx_1_1"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -2.54 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 3.81 -1.27) (xy 2.54 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
 					(length 2.54)
-					(name "IN"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2124,10 +1969,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 8.89 0 180)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "OUT"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2142,10 +1987,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "GND"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2795,145 +2640,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VCC"
 			(power global)
 			(pin_numbers
@@ -3081,22 +2787,16 @@
 		(uuid "064ab03b-8760-4639-8e58-b3e1d0f26d27")
 	)
 	(junction
-		(at 74.93 29.21)
+		(at 66.04 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca0eb136-7520-414c-9db9-f83587ef8915")
+		(uuid "c0e6d184-38a8-4d01-afca-c827979c81ed")
 	)
 	(junction
 		(at 66.04 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d689d7d6-c736-4092-91d3-f9c1a44a7ce0")
-	)
-	(junction
-		(at 66.04 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f65568eb-cd80-419e-9fa2-f0324e25fb67")
+		(uuid "e4e337fc-7b75-412a-b622-32775d8f8054")
 	)
 	(no_connect
 		(at 182.88 58.42)
@@ -4077,89 +3777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:AP7333")
-		(at 66.04 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "069f02fe-5390-4a25-a4af-3579f18c812b")
-		(property "Reference" "U2"
-			(at 66.04 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7333"
-			(at 66.04 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "https://akizukidenshi.com/catalog/g/g111360/"
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "fe2dcc0d-8d0e-4fc7-b585-d95a11ef43ca")
-		)
-		(pin "2"
-			(uuid "46fd9da4-093d-465a-a8bb-e16336b90280")
-		)
-		(pin "1"
-			(uuid "849f395f-caf3-49b6-b1ec-8f060e8e1eb7")
-		)
-		(instances
-			(project "tx04_s"
-				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 50.8 39.37 90)
 		(unit 1)
@@ -4240,8 +3857,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 57.15 29.21 0)
+		(lib_id "power:VCC")
+		(at 50.8 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4250,9 +3867,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f60aac5-a9ae-4cc1-a164-b2eb225989a1")
-		(property "Reference" "#PWR06"
-			(at 57.15 33.02 0)
+		(uuid "13392648-e12c-4670-982f-7290482ff31c")
+		(property "Reference" "#PWR01"
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,8 +3879,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 57.15 24.13 0)
+		(property "Value" "VCC"
+			(at 50.8 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4273,7 +3890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 29.21 0)
+			(at 50.8 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +3901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 29.21 0)
+			(at 50.8 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,8 +3911,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 29.21 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 50.8 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,12 +3923,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0ceea82-058a-449e-9da7-f2002af5b104")
+			(uuid "56c90641-4b97-43c1-af85-5ef9893de56a")
 		)
 		(instances
 			(project "tx04_s"
 				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4948,92 +4565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:2BZX84Cxx")
-		(at 71.12 50.8 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68a36f14-39f4-4bf0-996e-060793aa8bf4")
-		(property "Reference" "D1"
-			(at 78.74 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2BZX84Cxx"
-			(at 78.74 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 71.12 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "300mW Double Zener Diode, SOT-23"
-			(at 71.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b648f617-1ebd-4c5f-a611-c59556660daa")
-		)
-		(pin "3"
-			(uuid "4fa4f0e6-e1dd-412b-a3e8-5bb6f3565d28")
-		)
-		(pin "1"
-			(uuid "0a12985d-0813-4bf9-8c7d-0c65c3c16f60")
-		)
-		(instances
-			(project "tx04_s"
-				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 62.23 0)
 		(unit 1)
@@ -5249,7 +4780,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k"
 			(at 63.5 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,84 +4965,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8240d0c9-5541-47d6-a1d6-463ab27b0912")
-		(property "Reference" "#PWR08"
-			(at 66.04 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95f385eb-180d-40f4-b7ed-3c17b10f2591")
-		)
-		(instances
-			(project "tx04_s"
-				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 66.04 45.72 0)
 		(unit 1)
@@ -5533,7 +4986,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "1k"
 			(at 63.5 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,6 +5569,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:BZB784-Cxx")
+		(at 71.12 50.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1bd128c-fa94-4326-adca-3df3f9c833d1")
+		(property "Reference" "D1"
+			(at 76.708 53.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BZB784-Cxx"
+			(at 83.058 51.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 66.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc010a0c-bea0-41b8-a8bf-b7e67059d68a")
+		)
+		(pin "3"
+			(uuid "4c022569-70e2-4e85-be2d-283b6af1c1f0")
+		)
+		(pin "2"
+			(uuid "7433c5d9-e9e0-4cc2-a76e-c180c43dda9f")
+		)
+		(instances
+			(project "tx04_s"
+				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 72.39 0)
 		(unit 1)
@@ -6344,84 +5880,6 @@
 			(project "tx04_s"
 				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 50.8 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fea3b6af-5fb0-45b5-ae35-f93e73e2f955")
-		(property "Reference" "#PWR01"
-			(at 50.8 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 50.8 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 50.8 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "418c7a21-34da-47bf-bc1b-b7d70afd1661")
-		)
-		(instances
-			(project "tx04_s"
-				(path "/50466f3c-011d-4f2d-8d81-d64c89e7f340"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
