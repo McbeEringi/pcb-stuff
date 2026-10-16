@@ -7050,7 +7050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Library:USB_C_Plug_24P"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
