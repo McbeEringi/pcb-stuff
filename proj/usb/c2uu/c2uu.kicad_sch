@@ -5,48 +5,34 @@
 	(uuid "d3733c62-025e-4716-b3b3-b24ea6d1c355")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Analog_Switch:TS5A23159DGS"
+		(symbol "74xGxx:74LVC1G3157"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -5.08 8.89 0)
+				(at 5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "TS5A23159DGS"
-				(at -5.08 6.985 0)
+			(property "Value" "74LVC1G3157"
+				(at 10.16 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-				(at 1.27 -12.065 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a23159.pdf"
-				(at 1.27 -13.97 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -54,10 +40,20 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "Dual 1 ohm SPDT Analog Switch, TSSOP-10 (Texas DGS0010A / VSSOP)"
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -78,7 +74,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Texas-Instruments"
+			(property "ki_keywords" "SPDT Analog Switch CMOS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,7 +85,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*TSSOP*3x3mm?P0.5mm*"
+			(property "ki_fp_filters" "SOT* SC*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,22 +96,11 @@
 					)
 				)
 			)
-			(symbol "TS5A23159DGS_1_1"
+			(symbol "74LVC1G3157_1_1"
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -2.794 0)
+						(xy -7.62 0) (xy -5.08 0)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 4.445)
-					(end 3.81 -4.445)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -124,9 +109,22 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -2.159 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -7.62 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy 0 6.35) (xy -2.54 5.08) (xy -2.54 7.62)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -137,7 +135,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.127) (xy 2.54 1.905)
+						(xy -2.54 5.08) (xy 0 3.81) (xy -2.54 2.54) (xy -2.54 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -149,10 +147,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.254) (xy 0 0.508)
+						(xy -2.54 5.08) (xy -5.08 5.08) (xy -5.08 0) (xy -5.08 -5.08) (xy -2.54 -5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -161,10 +159,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.254) (xy 0 0)
+						(xy -2.54 -2.54) (xy -2.54 -5.08) (xy 0 -3.81) (xy -2.54 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -173,115 +171,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 0 -0.508)
+						(xy -2.54 -5.08) (xy 0 -6.35) (xy -2.54 -7.62) (xy -2.54 -5.08)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.794) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.318) (xy 0 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.159 2.54)
-					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -291,8 +182,8 @@
 					)
 				)
 				(circle
-					(center 2.159 -2.54)
-					(radius 0.508)
+					(center 0 2.794)
+					(radius 0.762)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -303,10 +194,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 2.794 2.54)
+						(xy 0 -0.762) (xy -3.81 -0.762) (xy -3.81 -10.16) (xy -5.08 -10.16)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -315,19 +206,91 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 2.794 -2.54)
+						(xy 0 -3.81) (xy 0 2.032)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 7.62) (xy 0 6.35) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 0 3.81) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -5.08) (xy 0 -3.81) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 0 -6.35) (xy 2.54 -7.62) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
@@ -343,9 +306,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
@@ -353,7 +316,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -361,271 +324,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TS5A23159DGS_2_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.794 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 4.445)
-					(end 3.81 -4.445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.159 0)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.127) (xy 2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.254) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.254) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.794) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.318) (xy 0 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.159 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.159 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.794 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 2.794 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
@@ -642,26 +343,8 @@
 					)
 				)
 				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
+					(at -10.16 -10.16 0)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
@@ -677,29 +360,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "TS5A23159DGS_3_1"
+			(symbol "74LVC1G3157_2_1"
 				(rectangle
-					(start -3.81 10.16)
-					(end 3.81 -10.16)
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -709,8 +374,8 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
+					(at 0 -10.16 90)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -718,7 +383,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -727,8 +392,8 @@
 					)
 				)
 				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
+					(at 0 10.16 270)
+					(length 5.08)
 					(name "VCC"
 						(effects
 							(font
@@ -736,7 +401,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3610,12 +3275,6 @@
 		(color 0 0 0 0)
 		(uuid "f6de7e5d-e2ca-4f21-9915-41a6dc0c0e8a")
 	)
-	(junction
-		(at 121.92 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd73c525-9fde-4546-ae72-9663aa4289dc")
-	)
 	(no_connect
 		(at 96.52 67.31)
 		(uuid "1c2b3367-ebb4-4c3d-8397-c2dfccd2b792")
@@ -3663,16 +3322,6 @@
 	(no_connect
 		(at 158.75 78.74)
 		(uuid "d6637885-e426-432d-ae5a-dfa534876e8d")
-	)
-	(wire
-		(pts
-			(xy 134.62 52.07) (xy 134.62 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "350e2691-01bf-44e2-bd34-daa486321d5e")
 	)
 	(wire
 		(pts
@@ -3726,23 +3375,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 134.62 52.07)
+			(xy 127 35.56) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "850a4459-d703-4146-a6de-2c4c5bfb5e49")
+		(uuid "aa06d4ba-5247-4499-93f0-def3768362be")
 	)
 	(wire
 		(pts
-			(xy 114.3 46.99) (xy 121.92 46.99)
+			(xy 127 29.21) (xy 127 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cd2514a-397a-4b7e-b235-ad4d9482c23a")
+		(uuid "cdb631cc-397b-4cd0-a29f-c58d13334058")
 	)
 	(wire
 		(pts
@@ -3804,7 +3453,7 @@
 	)
 	(global_label "RXD"
 		(shape output)
-		(at 114.3 54.61 180)
+		(at 106.68 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3814,7 +3463,7 @@
 		)
 		(uuid "30a87628-f391-48f4-90b3-0be116e2d4ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5653 54.61 0)
+			(at 99.9453 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +3477,7 @@
 	)
 	(global_label "TXD"
 		(shape input)
-		(at 114.3 39.37 180)
+		(at 127 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3838,7 +3487,7 @@
 		)
 		(uuid "390551d8-5c66-4ac7-8523-198af08de427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.8677 39.37 0)
+			(at 120.5677 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +3501,7 @@
 	)
 	(global_label "UART_IN"
 		(shape input)
-		(at 134.62 57.15 0)
+		(at 132.08 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3862,7 +3511,7 @@
 		)
 		(uuid "3d63b0ef-da86-481b-8fd4-dca1f6446fac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.1648 57.15 0)
+			(at 142.6248 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +3525,7 @@
 	)
 	(global_label "~{RTS}"
 		(shape input)
-		(at 114.3 46.99 180)
+		(at 106.68 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3886,7 +3535,7 @@
 		)
 		(uuid "501abc1a-ad87-4552-bbb9-a0f0756e6de2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.8677 46.99 0)
+			(at 100.2477 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4020,7 +3669,7 @@
 	)
 	(global_label "UART_OUT"
 		(shape output)
-		(at 135.89 71.12 90)
+		(at 127 67.31 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4030,7 +3679,7 @@
 		)
 		(uuid "7344d02d-8ddd-48a1-b253-8367ac4635d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 58.8819 90)
+			(at 127 55.0719 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +3765,7 @@
 	)
 	(global_label "UPDI"
 		(shape bidirectional)
-		(at 134.62 46.99 0)
+		(at 127 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4126,7 +3775,7 @@
 		)
 		(uuid "c57c0a95-9f37-479f-8706-7859a06d06e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1918 46.99 0)
+			(at 135.5718 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +3813,7 @@
 	)
 	(global_label "UART_OUT"
 		(shape output)
-		(at 134.62 36.83 0)
+		(at 132.08 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4174,7 +3823,7 @@
 		)
 		(uuid "db4ff5a0-5bf8-4951-8354-b6d0febd7880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.8581 36.83 0)
+			(at 144.3181 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +3837,7 @@
 	)
 	(global_label "UART_IN"
 		(shape output)
-		(at 140.97 71.12 90)
+		(at 132.08 67.31 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4198,7 +3847,7 @@
 		)
 		(uuid "e74f6ca9-17af-401d-b320-85ef638fb8bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 60.5752 90)
+			(at 132.08 56.7652 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +3885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 102.87 0)
+		(at 119.38 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4247,7 +3896,7 @@
 		(fields_autoplaced yes)
 		(uuid "05471659-71fd-41c0-83a2-cba46450613f")
 		(property "Reference" "#PWR015"
-			(at 121.92 109.22 0)
+			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +3907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 107.95 0)
+			(at 119.38 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4268,7 +3917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 102.87 0)
+			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +3928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 102.87 0)
+			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +3939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 102.87 0)
+			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,114 +3957,6 @@
 				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
 					(reference "#PWR015")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:TS5A23159DGS")
-		(at 121.92 90.17 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07d02eec-5698-4090-8eca-662fcae60a95")
-		(property "Reference" "U2"
-			(at 127 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS5A23159DGS"
-			(at 127 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 123.19 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a23159.pdf"
-			(at 123.19 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Dual 1 ohm SPDT Analog Switch, TSSOP-10 (Texas DGS0010A / VSSOP)"
-			(at 121.92 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "e09bff41-5f7b-44cc-8fd3-eb349c6174fd")
-		)
-		(pin "3"
-			(uuid "649f9d21-9753-47e2-b77c-3b194ea26e53")
-		)
-		(pin "9"
-			(uuid "22916391-35ca-4c17-98a6-0765f2581523")
-		)
-		(pin "1"
-			(uuid "ab1eacb4-2065-4289-b6fd-f100803e8519")
-		)
-		(pin "5"
-			(uuid "b1bd114b-583b-447b-9db1-36fd00f91488")
-		)
-		(pin "7"
-			(uuid "3ace09a6-0132-483a-990c-8cbe1c21d7c2")
-		)
-		(pin "10"
-			(uuid "87594736-e5f2-4a9b-ac46-610e3e3055bf")
-		)
-		(pin "2"
-			(uuid "08293e8c-ff6c-4203-9f5a-cd5f37e8572e")
-		)
-		(pin "8"
-			(uuid "903dcb61-1c69-40a7-afbc-43508bda532f")
-		)
-		(pin "6"
-			(uuid "73a6e245-3623-4f63-9b66-d11b3671fd2f")
-		)
-		(instances
-			(project "c2uu"
-				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
-					(reference "U2")
-					(unit 3)
 				)
 			)
 		)
@@ -4500,7 +4041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 81.28 0)
+		(at 129.54 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4511,7 +4052,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d1fbf4e-d9ba-4e44-abdf-3c2337bd56a2")
 		(property "Reference" "#PWR017"
-			(at 138.43 87.63 0)
+			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 86.36 0)
+			(at 129.54 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4532,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 81.28 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4543,7 +4084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 81.28 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4554,7 +4095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 81.28 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4656,7 +4197,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 104.14 90.17 90)
+		(at 104.14 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4667,7 +4208,7 @@
 		(fields_autoplaced yes)
 		(uuid "12c0cae2-ef51-4548-979d-2e9aedd08c60")
 		(property "Reference" "D1"
-			(at 106.68 88.8364 90)
+			(at 106.68 93.9164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4678,7 +4219,7 @@
 			)
 		)
 		(property "Value" "TNOW"
-			(at 106.68 91.3764 90)
+			(at 106.68 96.4564 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4689,7 +4230,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 104.14 90.17 90)
+			(at 104.14 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 90.17 90)
+			(at 104.14 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4252,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 104.14 90.17 0)
+			(at 104.14 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4263,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 90.17 0)
+			(at 104.14 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5215,7 +4756,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 104.14 95.25 0)
+		(at 104.14 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5226,7 +4767,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a97d7f8-4401-4bdf-8b17-a047f7caa7ea")
 		(property "Reference" "R7"
-			(at 106.68 93.9799 0)
+			(at 106.68 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5237,7 +4778,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 106.68 96.5199 0)
+			(at 106.68 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5248,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 95.25 0)
+			(at 104.14 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +4800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 95.25 0)
+			(at 104.14 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,7 +4811,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 104.14 95.25 0)
+			(at 104.14 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,8 +4837,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:TS5A23159DGS")
-		(at 121.92 39.37 0)
+		(lib_id "74xGxx:74LVC1G3157")
+		(at 116.84 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5306,9 +4847,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "513b610c-f139-409e-a3c6-907508767ff6")
+		(uuid "52fdc534-3a79-4b00-ab14-aa069e075daf")
 		(property "Reference" "U2"
-			(at 121.92 30.48 0)
+			(at 115.57 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5317,8 +4858,8 @@
 				)
 			)
 		)
-		(property "Value" "TS5A23159DGS"
-			(at 121.92 33.02 0)
+		(property "Value" "74LVC1G3157"
+			(at 115.57 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5327,32 +4868,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 123.19 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a23159.pdf"
-			(at 123.19 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Dual 1 ohm SPDT Analog Switch, TSSOP-10 (Texas DGS0010A / VSSOP)"
-			(at 121.92 39.37 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 116.84 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,35 +4879,45 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "e09bff41-5f7b-44cc-8fd3-eb349c6174fe")
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 116.84 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "649f9d21-9753-47e2-b77c-3b194ea26e54")
-		)
-		(pin "9"
-			(uuid "22916391-35ca-4c17-98a6-0765f2581524")
-		)
-		(pin "1"
-			(uuid "ab1eacb4-2065-4289-b6fd-f100803e851a")
-		)
-		(pin "5"
-			(uuid "b1bd114b-583b-447b-9db1-36fd00f91489")
-		)
-		(pin "7"
-			(uuid "3ace09a6-0132-483a-990c-8cbe1c21d7c3")
-		)
-		(pin "10"
-			(uuid "87594736-e5f2-4a9b-ac46-610e3e3055c0")
+		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
+			(at 116.84 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "08293e8c-ff6c-4203-9f5a-cd5f37e8572f")
+			(uuid "5e50ea6e-0757-44a1-a79f-133986cc06ea")
 		)
-		(pin "8"
-			(uuid "903dcb61-1c69-40a7-afbc-43508bda5330")
+		(pin "5"
+			(uuid "418ef9ab-9f27-4aaf-a7a3-33bc31eafebc")
+		)
+		(pin "3"
+			(uuid "9bb933af-fd33-426a-94b7-c8846794a594")
+		)
+		(pin "1"
+			(uuid "3795dc27-c3ae-47a5-afd7-4a483f7567b6")
+		)
+		(pin "4"
+			(uuid "e9670f57-529a-4e12-95b3-7ad400c74348")
 		)
 		(pin "6"
-			(uuid "73a6e245-3623-4f63-9b66-d11b3671fd30")
+			(uuid "a52b40fa-67c3-4fe7-a946-5353e39510f8")
 		)
 		(instances
 			(project "c2uu"
@@ -5560,6 +5087,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f47801b-a403-4d12-85b4-e1201964a502")
+		(property "Reference" "R5"
+			(at 129.54 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 129.54 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6abdc1f1-fddf-46cd-b943-d7818cf44b5d")
+		)
+		(pin "2"
+			(uuid "5519c50d-1521-4c84-82a6-031b30dff23e")
+		)
+		(instances
+			(project "c2uu"
+				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 87.63 0)
 		(unit 1)
@@ -5633,6 +5242,100 @@
 				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
 					(reference "#PWR03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G3157")
+		(at 119.38 87.63 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8732737c-e5f4-44a2-ab3f-fe9ac3d04917")
+		(property "Reference" "U2"
+			(at 123.19 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC1G3157"
+			(at 123.19 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e50ea6e-0757-44a1-a79f-133986cc06ea")
+		)
+		(pin "5"
+			(uuid "418ef9ab-9f27-4aaf-a7a3-33bc31eafebc")
+		)
+		(pin "3"
+			(uuid "9bb933af-fd33-426a-94b7-c8846794a594")
+		)
+		(pin "1"
+			(uuid "3795dc27-c3ae-47a5-afd7-4a483f7567b6")
+		)
+		(pin "4"
+			(uuid "e9670f57-529a-4e12-95b3-7ad400c74348")
+		)
+		(pin "6"
+			(uuid "a52b40fa-67c3-4fe7-a946-5353e39510f8")
+		)
+		(instances
+			(project "c2uu"
+				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -5797,86 +5500,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 132.08 41.91 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0e66b98-c469-4aa5-ad4e-1da49998b09b")
-		(property "Reference" "R5"
-			(at 132.08 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 132.08 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39daf5b2-e612-41ce-ab7b-ebbcd8e76494")
-		)
-		(pin "2"
-			(uuid "b77787a2-ddeb-48ab-80d6-22f9112f0c23")
-		)
-		(instances
-			(project "c2uu"
-				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 156.21 40.64 90)
 		(unit 1)
 		(body_style 1)
@@ -5957,7 +5580,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 132.08 57.15 90)
+		(at 129.54 46.99 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5968,7 +5591,7 @@
 		(dnp no)
 		(uuid "a8929123-3f35-42a4-af2b-0db0e408c011")
 		(property "Reference" "R6"
-			(at 132.08 62.23 90)
+			(at 129.54 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5978,7 +5601,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 132.08 59.69 90)
+			(at 129.54 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5988,7 +5611,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 57.15 0)
+			(at 129.54 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,7 +5622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 57.15 0)
+			(at 129.54 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +5633,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 132.08 57.15 0)
+			(at 129.54 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6037,7 +5660,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 121.92 77.47 0)
+		(at 119.38 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6048,7 +5671,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4355d99-5424-47e1-b5b9-df6bd930f308")
 		(property "Reference" "#PWR014"
-			(at 121.92 81.28 0)
+			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6059,7 +5682,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 121.92 72.39 0)
+			(at 119.38 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6069,7 +5692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 77.47 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +5703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 77.47 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,7 +5714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 121.92 77.47 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,115 +5893,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:TS5A23159DGS")
-		(at 121.92 54.61 0)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c13c821b-42aa-4ea5-885c-7890380dc631")
-		(property "Reference" "U2"
-			(at 121.92 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS5A23159DGS"
-			(at 121.92 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 123.19 42.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a23159.pdf"
-			(at 123.19 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Dual 1 ohm SPDT Analog Switch, TSSOP-10 (Texas DGS0010A / VSSOP)"
-			(at 121.92 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "e09bff41-5f7b-44cc-8fd3-eb349c6174ff")
-		)
-		(pin "3"
-			(uuid "649f9d21-9753-47e2-b77c-3b194ea26e55")
-		)
-		(pin "9"
-			(uuid "22916391-35ca-4c17-98a6-0765f2581525")
-		)
-		(pin "1"
-			(uuid "ab1eacb4-2065-4289-b6fd-f100803e851b")
-		)
-		(pin "5"
-			(uuid "b1bd114b-583b-447b-9db1-36fd00f9148a")
-		)
-		(pin "7"
-			(uuid "3ace09a6-0132-483a-990c-8cbe1c21d7c4")
-		)
-		(pin "10"
-			(uuid "87594736-e5f2-4a9b-ac46-610e3e3055c1")
-		)
-		(pin "2"
-			(uuid "08293e8c-ff6c-4203-9f5a-cd5f37e85730")
-		)
-		(pin "8"
-			(uuid "903dcb61-1c69-40a7-afbc-43508bda5331")
-		)
-		(pin "6"
-			(uuid "73a6e245-3623-4f63-9b66-d11b3671fd31")
-		)
-		(instances
-			(project "c2uu"
-				(path "/d3733c62-025e-4716-b3b3-b24ea6d1c355"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 132.08 36.83 90)
+		(at 129.54 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6389,7 +5905,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1f564f9-84e5-44f4-a180-2af0a2237934")
 		(property "Reference" "R4"
-			(at 132.08 31.75 90)
+			(at 129.54 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6399,7 +5915,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 132.08 34.29 90)
+			(at 129.54 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6409,7 +5925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 36.83 0)
+			(at 129.54 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +5936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 36.83 0)
+			(at 129.54 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6431,7 +5947,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 132.08 36.83 0)
+			(at 129.54 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6614,7 +6130,7 @@
 	)
 	(symbol
 		(lib_id "Library:BZB784-Cxx")
-		(at 138.43 76.2 0)
+		(at 129.54 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6625,7 +6141,7 @@
 		(fields_autoplaced yes)
 		(uuid "da4e4455-8c21-4ee7-a40e-2120dd51d469")
 		(property "Reference" "D2"
-			(at 143.51 75.0569 0)
+			(at 134.62 71.2469 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6636,7 +6152,7 @@
 			)
 		)
 		(property "Value" "BZB784-Cxx"
-			(at 143.51 77.5969 0)
+			(at 134.62 73.7869 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6647,7 +6163,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 135.89 71.12 0)
+			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6658,7 +6174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 71.12 0)
+			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +6185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 71.12 0)
+			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
