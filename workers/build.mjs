@@ -20,5 +20,5 @@ Bun.write(
 			),{}))
 		))(),
 		{html:1}
-	)}).transform(await Bun.file('src/index.html').text())
+	)}).transform(new Response(await Bun.file('src/index.html').stream()))
 );
