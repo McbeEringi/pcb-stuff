@@ -1,5 +1,5 @@
 {
-	"name": "pcb-stuff",
+	"name": "pcb-stuff-workers",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -7,7 +7,10 @@
 		"dev": "wrangler dev",
 		"start": "wrangler dev"
 	},
+	"dependencies": {
+		"6ca-ssg": "git+https://github.com/mcbeeringi/6ca-ssg.git"
+	},
 	"devDependencies": {
-		"wrangler": "^4.45.2"
+		"wrangler": "^4.24.3"
 	}
 }
