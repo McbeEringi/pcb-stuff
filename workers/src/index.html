@@ -15,7 +15,7 @@ export default async x=>(
 				x.match(/(?<user>.+?)@(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
 			).groups)(await Bun.$`git remote get-url origin`.text()),
 			branch='HEAD',//(await Bun.$`git branch --contains`.text()).slice(2,-1),
-			f([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('./root')].reduce((a,w)=>(
+			f([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
 				w.split(sep).slice(0,-1).reduce((a,x,i,w)=>(
 					++i==w.length?a[x]=`<a href="https://${host}/${auth}/${repo}/tree/${branch}/${w.join('/')}">${x}</a>`:a[x]??={}
 				),a),
