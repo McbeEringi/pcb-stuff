@@ -11,6 +11,11 @@ const
 branch=(await Bun.$`git branch --show-current`.text()).trim(),
 f=w=>`<ul>${Object.entries(w).map(([i,x])=>typeof x=='string'?`<li>${x}</li>`:`<li>${i}${f(x)}</li>`).join('')}</ul>`;
 
+console.log({
+remote:await Bun.$`git remote get-url origin`.text(),
+branch:await Bun.$`git branch`.text()
+});
+
 export default async x=>(
 	x=tmpl(cfg)(x),
 	x.html=new HTMLRewriter().on('div#browse',{element:e=>e.append(
