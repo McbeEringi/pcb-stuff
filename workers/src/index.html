@@ -3,27 +3,25 @@ import{sep}from'node:path';
 import cfg from'config_default';
 import tmpl from'html_tmpl';
 
+const
+{host,auth,repo}=(x=>(
+	x.match(/https?:\/\/(?<host>.+?)\/(?<auth>.+?)\/(?<repo>.+?)\.git/)??
+	x.match(/(?<user>.+?)@(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
+).groups)(await Bun.$`git remote get-url origin`.text()),
+branch=(await Bun.$`git branch --show-current`.text()).trim(),
+f=w=>`<ul>${Object.entries(w).map(([i,x])=>typeof x=='string'?`<li>${x}</li>`:`<li>${i}${f(x)}</li>`).join('')}</ul>`;
+
 export default async x=>(
 	x=tmpl(cfg)(x),
-	x.html=await new HTMLRewriter().on('div#browse',{element:async e=>e.append(
-		await(async(
-			host,auth,repo,branch,
-			f=w=>`<ul>${Object.entries(w).map(([i,x])=>typeof x=='string'?`<li>${x}</li>`:`<li>${i}${f(x)}</li>`).join('')}</ul>`
-		)=>(
-			{host,auth,repo}=(x=>(
-				x.match(/https?:\/\/(?<host>.+?)\/(?<auth>.+?)\/(?<repo>.+?)\.git/)??
-				x.match(/(?<user>.+?)@(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
-			).groups)(await Bun.$`git remote get-url origin`.text()),
-			branch='HEAD',//(await Bun.$`git branch --contains`.text()).slice(2,-1),
-			f([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
-				w.split(sep).slice(0,-1).reduce((a,x,i,w)=>(
-					++i==w.length?a[x]=`<a href="https://${host}/${auth}/${repo}/tree/${branch}/${w.join('/')}">${x}</a>`:a[x]??={}
-				),a),
-				a
-			),{}))
-		))(),
+	x.html=new HTMLRewriter().on('div#browse',{element:e=>e.append(
+		f([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
+			w.split(sep).slice(0,-1).reduce((a,x,i,w)=>(
+				++i==w.length?a[x]=`<a href="https://${host}/${auth}/${repo}/tree/${branch}/${w.join('/')}">${x}</a>`:a[x]??={}
+			),a),
+			a
+		),{})),
 		{html:1}
-	)}).transform(new Response(x.html)),
+	)}).transform(x.html),
 	x
 );
 </script>
