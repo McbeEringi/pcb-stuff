@@ -5,16 +5,11 @@ import tmpl from'html_tmpl';
 
 const
 {host,auth,repo}=(x=>(
-	x.match(/https?:\/\/(?<host>.+?)\/(?<auth>.+?)\/(?<repo>.+?)\.git/)??
-	x.match(/(?<user>.+?)@(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
+	x.match(/https?:\/\/(?:(?<user>.+?)@)?(?<host>.+?)\/(?<auth>.+?)\/(?<repo>.+?)\.git/)??
+	x.match(/(?:(?<user>.+?)@)?(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
 ).groups)(await Bun.$`git remote get-url origin`.text()),
-branch=(await Bun.$`git branch --show-current`.text()).trim(),
+branch=process.env.WORKERS_CI_BRANCH??(await Bun.$`git branch --show-current`.text()).trim(),
 f=w=>`<ul>${Object.entries(w).map(([i,x])=>typeof x=='string'?`<li>${x}</li>`:`<li>${i}${f(x)}</li>`).join('')}</ul>`;
-
-console.log({
-remote:await Bun.$`git remote get-url origin`.text(),
-branch:await Bun.$`git branch`.text()
-});
 
 export default async x=>(
 	x=tmpl(cfg)(x),
