@@ -15,7 +15,7 @@ export default async x=>(
 	x=tmpl(cfg)(x),
 	x.html=new HTMLRewriter().on('div#browse',{element:e=>e.append(
 		f([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
-			w.split(sep).slice(0,-1).reduce((a,x,i,w)=>(
+			w.split(sep).slice(1,-1).reduce((a,x,i,w)=>(
 				++i==w.length?a[x]=`<a href="https://${host}/${auth}/${repo}/tree/${branch}/${w.join('/')}">${x}</a>`:a[x]??={}
 			),a),
 			a
