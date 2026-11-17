@@ -5,7 +5,8 @@ import tmpl from'html_tmpl';
 import{join}from'node:path';
 import{KicadToCircuitJsonConverter}from'kicad-to-circuit-json';
 import{convertCircuitJsonToSchematicSvg}from'circuit-to-svg';
-import{convertCircuitJsonToSimple3dSvg}from'circuit-json-to-simple-3d';
+//import{convertCircuitJsonToSimple3dSvg}from'circuit-json-to-simple-3d';
+import{renderCircuitJsonTo3dPng}from'circuit-json-to-3d-png';
 
 const
 {host,auth,repo}=(x=>(
@@ -32,9 +33,15 @@ export default async x=>(
 				c.runUntilFinished(),
 				c=c.getOutput(),
 				Bun.write(join(import.meta.dir,'render',...w,'sch.svg'),convertCircuitJsonToSchematicSvg(c)),
-				Bun.write(join(import.meta.dir,'render',...w,'pcb.svg'),await convertCircuitJsonToSimple3dSvg(c,{
+				/*Bun.write(join(import.meta.dir,'render',...w,'pcb.svg'),await convertCircuitJsonToSimple3dSvg(c,{
 					defaultZoomMultiplier:1.5,
 					background:{color:'#fff',opacity:0},
+				})),*/
+				Bun.write(join(import.meta.dir,'render',...w,'pcb.png'),await renderCircuitJsonTo3dPng(c,{
+					width:512,height:512,
+					backgroundColor:'#0000',
+					//showInfiniteGrid:true,
+					supersampling:2,
 				})),
 				console.log(w)
 			))().catch(e=>console.warn(w)),
@@ -43,7 +50,7 @@ export default async x=>(
 			a
 		),{})).map(([i,x])=>(
 			`<div class="zab"><h2>${i}</h2><div class="stuff">${
-				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(${cfg.origin}/render/${i}/${x.join('/')}/pcb.svg)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
+				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(${cfg.origin}render/${i}/${x.join('/')}/pcb.png)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
 			}</div></div>`
 		)).join('\n'),
 		{html:1}
