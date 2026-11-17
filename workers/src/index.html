@@ -2,29 +2,52 @@
 import{sep}from'node:path';
 import cfg from'config_default';
 import tmpl from'html_tmpl';
+import{join}from'node:path';
+import{KicadToCircuitJsonConverter}from'kicad-to-circuit-json';
+import{convertCircuitJsonToSchematicSvg}from'circuit-to-svg';
+import{convertCircuitJsonToSimple3dSvg}from'circuit-json-to-simple-3d';
 
 const
 {host,auth,repo}=(x=>(
 	x.match(/https?:\/\/(?:(?<user>.+?)@)?(?<host>.+?)\/(?<auth>.+?)\/(?<repo>.+?)\.git/)??
 	x.match(/(?:(?<user>.+?)@)?(?<host>.+?):(?<auth>.+?)\/(?<repo>.+)/)
 ).groups)(await Bun.$`git remote get-url origin`.text()),
-branch=process.env.WORKERS_CI_BRANCH??(await Bun.$`git branch --show-current`.text()).trim(),
-f=w=>`<ul>${Object.entries(w).map(([i,x])=>typeof x=='string'?`<li>${x}</li>`:`<li>${i}${f(x)}</li>`).join('')}</ul>`;
+branch=process.env.WORKERS_CI_BRANCH??(await Bun.$`git branch --show-current`.text()).trim();
 
 export default async x=>(
 	x=tmpl(cfg)(x),
-	x.html=new HTMLRewriter().on('div#browse',{element:e=>e.append(
-		Object.entries([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
+	x.html=await new HTMLRewriter().on('div#browse',{element:async e=>e.append(
+		Object.entries(await[...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce(async(a,w,c)=>(
+			a=await a,
+			c=new KicadToCircuitJsonConverter(),
+			await Promise.all(['sch','pcb'].map(async x=>(
+				x=join('../',w.replace(/pro$/,x)),
+				c.addFile(x,await Bun.file(x).text())
+			))),
+
 			w=w.split(sep).slice(1,-1),
 			(a[w[0]]??=[]).push(w.slice(1)),
+
+			await(async()=>(
+				c.runUntilFinished(),
+				c=c.getOutput(),
+				Bun.write(join(import.meta.dir,'render',...w,'sch.svg'),convertCircuitJsonToSchematicSvg(c)),
+				Bun.write(join(import.meta.dir,'render',...w,'pcb.svg'),await convertCircuitJsonToSimple3dSvg(c,{
+					defaultZoomMultiplier:1.5,
+					background:{color:'#fff',opacity:0},
+				})),
+				console.log(w)
+			))().catch(e=>console.warn(w)),
+
+
 			a
 		),{})).map(([i,x])=>(
 			`<div class="zab"><h2>${i}</h2><div class="stuff">${
-				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
+				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(./render/${i}/${x.join('/')}/pcb.svg)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
 			}</div></div>`
 		)).join('\n'),
 		{html:1}
-	)}).transform(x.html),
+	)}).transform(new Response(x.html)),
 	x
 );
 </script>
