@@ -4,9 +4,12 @@ import cfg from'config_default';
 import tmpl from'html_tmpl';
 import{join}from'node:path';
 import{KicadToCircuitJsonConverter}from'kicad-to-circuit-json';
-import{convertCircuitJsonToSchematicSvg}from'circuit-to-svg';
-//import{convertCircuitJsonToSimple3dSvg}from'circuit-json-to-simple-3d';
+// import{convertCircuitJsonToSchematicSvg}from'circuit-to-svg';
 import{renderCircuitJsonTo3dPng}from'circuit-json-to-3d-png';
+//import{semaphore}from'@node-libraries/semaphore';
+import{optimizeImage}from'wasm-image-optimization';
+
+//await semaphore(2).acquire();
 
 const
 {host,auth,repo}=(x=>(
@@ -21,9 +24,9 @@ export default async x=>(
 		Object.entries(await[...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce(async(a,w,c)=>(
 			a=await a,
 			c=new KicadToCircuitJsonConverter(),
-			await Promise.all(['sch','pcb'].map(async x=>(
+			await Promise.all(['pcb'].map(async x=>(// sch does not support bus_entry?
 				x=join('../',w.replace(/pro$/,x)),
-				c.addFile(x,await Bun.file(x).text())
+				c.addFile(x,(await Bun.file(x).text()).replace('(zone_defaults)',''))
 			))),
 
 			w=w.split(sep).slice(1,-1),
@@ -32,25 +35,25 @@ export default async x=>(
 			await(async()=>(
 				c.runUntilFinished(),
 				c=c.getOutput(),
-				Bun.write(join(import.meta.dir,'render',...w,'sch.svg'),convertCircuitJsonToSchematicSvg(c)),
-				/*Bun.write(join(import.meta.dir,'render',...w,'pcb.svg'),await convertCircuitJsonToSimple3dSvg(c,{
-					defaultZoomMultiplier:1.5,
-					background:{color:'#fff',opacity:0},
-				})),*/
-				Bun.write(join(import.meta.dir,'render',...w,'pcb.png'),await renderCircuitJsonTo3dPng(c,{
-					width:512,height:512,
-					backgroundColor:'#0000',
-					//showInfiniteGrid:true,
-					supersampling:2,
-				})),
+				// Bun.write(join(import.meta.dir,'render',...w,'sch.svg'),await convertCircuitJsonToSchematicSvg(c)),
+				Bun.write(join(import.meta.dir,'render',...w,'pcb.avif'),(await optimizeImage({
+					image:await renderCircuitJsonTo3dPng(c,{
+						width:512,height:512,
+						backgroundColor:'#0000',
+						//showInfiniteGrid:true,
+						supersampling:2,
+					}),
+					quality:60,
+					format:'avif'
+				})).data),
 				console.log(w)
-			))().catch(e=>console.warn(w)),
+			))().catch(e=>console.warn(w,e)),
 
 
 			a
 		),{})).map(([i,x])=>(
 			`<div class="zab"><h2>${i}</h2><div class="stuff">${
-				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(${cfg.origin}render/${i}/${x.join('/')}/pcb.png)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
+				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(${cfg.origin}render/${i}/${x.join('/')}/pcb.avif)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
 			}</div></div>`
 		)).join('\n'),
 		{html:1}
