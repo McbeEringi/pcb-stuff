@@ -43,7 +43,7 @@ export default async x=>(
 			a
 		),{})).map(([i,x])=>(
 			`<div class="zab"><h2>${i}</h2><div class="stuff">${
-				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(./render/${i}/${x.join('/')}/pcb.svg)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
+				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}" style="--img:url(${cfg.origin}/render/${i}/${x.join('/')}/pcb.svg)"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
 			}</div></div>`
 		)).join('\n'),
 		{html:1}
