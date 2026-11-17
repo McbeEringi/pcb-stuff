@@ -14,12 +14,15 @@ f=w=>`<ul>${Object.entries(w).map(([i,x])=>typeof x=='string'?`<li>${x}</li>`:`<
 export default async x=>(
 	x=tmpl(cfg)(x),
 	x.html=new HTMLRewriter().on('div#browse',{element:e=>e.append(
-		f([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
-			w.split(sep).slice(1,-1).reduce((a,x,i,w)=>(
-				++i==w.length?a[x]=`<a href="https://${host}/${auth}/${repo}/tree/${branch}/${w.join('/')}">${x}</a>`:a[x]??={}
-			),a),
+		Object.entries([...new Bun.Glob('proj/**/*.kicad_pro').scanSync('../')].reduce((a,w)=>(
+			w=w.split(sep).slice(1,-1),
+			(a[w[0]]??=[]).push(w.slice(1)),
 			a
-		),{})),
+		),{})).map(([i,x])=>(
+			`<div class="zab"><h2>${i}</h2><div class="stuff">${
+				x.map(x=>`<a href="https://${host}/${auth}/${repo}/tree/${branch}/proj/${i}/${x.join('/')}"><p>${x.at(-1)}</p>${1<x.length?`<p>${x.slice(0,-1).join('/')}</p>`:''}</a>`).join('')
+			}</div></div>`
+		)).join('\n'),
 		{html:1}
 	)}).transform(x.html),
 	x
@@ -29,8 +32,5 @@ export default async x=>(
 <main>
 <h1>McbeEringi/pcb-stuff</h1>
 <hr>
-<div class="zab">
-	<h2>Projects</h2>
-	<div id="browse"></div>
-</div>
+<div id="browse"></div>
 </main>
