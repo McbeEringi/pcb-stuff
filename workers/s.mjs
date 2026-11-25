@@ -53,7 +53,7 @@ parse_pcb=w=>(
 			t=(x[2]??0)*Math.PI/180,
 			at=x.slice(0,2).map(x=>+x),
 			cos=Math.cos(t),sin=Math.sin(t),
-			tf=([i,x,y])=>[i,x*cos-y*sin+at[0],x*sin+y*cos+at[1]]
+			tf=([i,x,y])=>[i,x*cos+y*sin+at[0],x*sin-y*cos+at[1]]
 		)=>[
 			w[1],
 			...w.filter(x=>x[0].startsWith('fp_')).map(([i,...x])=>[
